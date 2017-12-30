@@ -1,0 +1,5 @@
+" Crear un enlace simbolico a este archivo
+" $ ln -s vimrc /home/leandro/.vimrc
+
+" Thinkpad
+colo thinkpad

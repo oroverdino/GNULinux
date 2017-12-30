@@ -1,0 +1,121 @@
+# i3blocks config file
+#
+# Please see man i3blocks for a complete reference!
+# The man page is also hosted at http://vivien.github.io/i3blocks
+#
+# List of valid properties:
+# align
+# color
+# command
+# full_text
+# instance
+# interval
+# label
+# min_width
+# name
+# separator
+# separator_block_width
+# short_text
+# signal
+# urgent
+
+#full_text=
+#align=center
+#color=#73D216
+#separator=false
+##separator_block_width=1
+#markup=pango
+
+# Global properties
+separator_block_width=15
+#color=#1DB954
+separator=false
+
+#Prueba
+#[clickme]
+#full_text=Temperatura
+#command=echo button=$BLOCK_BUTTON x=$BLOCK_X y=$BLOCK_Y
+#min_width=button=1 x=1366 y=768
+#align=left
+
+[volume]
+full_text=
+label=
+instance=Master
+command=/usr/share/i3blocks/volume
+interval=15
+signal=10
+
+#[memory]
+#label=
+#command=/usr/share/i3blocks/memory
+#separator=15
+#interval=30
+
+#[swap]
+#label=SWAP
+#instance=swap
+#command=/usr/share/i3blocks/memory
+#interval=30
+
+[separator]
+
+[load1]
+full_text=
+label=
+command=/usr/share/i3blocks/load_average
+interval=5
+separator=false
+separator_block_width=6
+
+[load2]
+label=:
+command=/usr/share/i3blocks/load_average_bis
+interval=10
+
+[separator]
+
+[temperatura]
+full_text=
+label=
+command=acpi -t | cut -d '.' -f1 | cut -d ',' -f2
+interval=30
+
+[separator]
+
+#[battery]
+#full_text=
+#label=
+#command=/usr/share/i3blocks/battery
+#interval=30
+
+[batterybar]
+full_text=
+command=/usr/share/i3blocks/batterybar #run batterybar -h for options
+#label=bat:
+interval=60
+markup=pango
+min_width=■■■■■
+
+[separator]
+
+[bandwidth]
+full_text=
+#label=
+label=
+command=/usr/share/i3blocks/bandwidth2 -w 512000:128000 -c 1000000:256000
+interval=persist
+markup=pango
+min_width= 999.9 MB/s 256.0 KB/s
+#instance=wlp3s0
+#command=/usr/share/i3blocks/wireless
+#command=/usr/share/i3blocks/bandwidth 
+#color=#00FF00
+#interval=5
+
+[separator]
+
+[time]
+full_text=
+command=date '+%y%m%d %H:%M'
+interval=30

@@ -1,0 +1,17 @@
+# Tabla de particiones SSD Intel - 171128
+
+Disk /dev/sda: 111.8 GiB, 120034123776 bytes, 234441648 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: gpt
+Disk identifier: 0425D9ED-2233-49BA-B33E-7D74333DDB42
+
+Device      Start       End   Sectors  Size Type
+/dev/sda1    2048    233471    231424  113M EFI System
+/dev/sda2  233472    483327    249856  122M Linux swap
+/dev/sda3  483328 156342271 155858944 74.3G Linux filesystem
+
+# Distribucion de las particiones
+
+sda1 | sda2 | sda3 | unallocated

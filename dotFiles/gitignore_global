@@ -1,0 +1,30 @@
+# vim
+[._]*.swap
+[._]*swap
+
+# packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# logs
+*.log
+
+# databases
+*.sql
+*.sqlite
+
+# libreoffice
+.~lock.*#
+
+# microsoft office
+*.tmp
+~$*.doc*
+~$*.xls*
+*.xlk
+~$*.ppt*

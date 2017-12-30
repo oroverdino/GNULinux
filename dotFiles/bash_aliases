@@ -1,0 +1,25 @@
+# alias mios que deben agregarse en el home
+# recordar que es .bash_aliases
+alias ll='ls -alh'
+alias t2='tree -L 2'
+alias suspend='systemctl suspend'
+
+# markdown
+alias md='/home/leandro/Documents/GNULinux/scripts/md.sh'
+
+# wttr
+alias wttr='/home/leandro/Documents/GNULinux/scripts/wttr.sh'
+
+# rclone
+alias baulera='/home/leandro/Documents/GNULinux/scripts/baulera.sh'
+alias barrio='/home/leandro/Documents/GNULinux/scripts/barrio.sh'
+alias fiat147='/home/leandro/Documents/GNULinux/scripts/fiat147.sh'
+alias gnulinux='/home/leandro/Documents/GNULinux/scripts/gnulinux.sh'
+alias gugler='/home/leandro/Documents/GNULinux/scripts/gugler.sh'
+alias rata='/home/leandro/Documents/GNULinux/scripts/rata.sh'
+
+# rsync Linode
+alias linode='/home/leandro/Documents/Gugler/PHP/syncLinode.sh'
+
+# rsync Raspberry Pi Zero
+alias rpiz='/home/leandro/Documents/Gugler/PHP/syncRpiz.sh'

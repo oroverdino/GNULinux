@@ -1,0 +1,43 @@
+" Crear un enlace simbolica a este archivo
+" # ln -s /home/leandro/Documents/GNULinux/dotFiles/vimrc.local
+" /etc/vim/vimrc.local
+
+" para habilitar chiches
+set nocompatible
+set t_Co=256
+
+" basico
+set number ruler hlsearch
+set laststatus=2
+
+" remapeamos algunas cosas
+noremap <F12> :update<CR>
+inoremap <F12> <ESC>:update<CR>
+noremap <S-F12> :wq<CR>
+inoremap <S-F12> <ESC>:wq<CR>
+
+" this keep current line centered on the screen
+set scrolloff=5
+
+" fundamental para programar
+filetype plugin on
+filetype plugin indent on
+
+" show existing tab with 4 spaces width
+set tabstop=4
+
+" when indenting with '>', use 4 spaces width
+set shiftwidth=4
+
+" On pressing tab, insert 4 spaces
+set expandtab
+
+" Powerline
+"set rtp+=/usr/local/lib/python3.5/dist-packages/powerline/bindings/vim/
+
+" Color column
+"set cc=78
+
+" Airline
+let g:airline_powerline_fonts = 1
+let g:airline_theme = 'base16_monokai'
