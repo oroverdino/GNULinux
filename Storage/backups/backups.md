@@ -68,6 +68,8 @@ o solo su contenido, por ejemplo:
 va a resultar en:
 - /mnt/BACKUPS/Debian/leandro/etc etc
 mientras que
-- # rsync -a /home /mnt/BACKUPS/Debian
+```
+# rsync -a /home /mnt/BACKUPS/Debian
+```
 resultara en
 - /mnt/BACKUPS/Debian/home/leandro/etc etc
