@@ -1,9 +1,9 @@
-### Configuracion de grub2
+# Configuracion de grub2
 ### 170905
 
-# Splash image
+## Splash image
 
-## Jessie
+### Jessie
 
 Para cambiar el fondo del grub2 hay que sobreescribir la imagen
 por defecto por la que se quiera.
@@ -11,7 +11,7 @@ por defecto por la que se quiera.
 $ sudo cp debian-grub.png /usr/share/image/desktop-base/lines-grub.png
 ```
 
-## Stretch
+### Stretch
 
 En stretch cambia un poco. Primero sobreescribimos
 ```

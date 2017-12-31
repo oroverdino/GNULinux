@@ -1,7 +1,7 @@
-### Actualizacion de raspian jessie a stretch
+# Actualizacion de raspian jessie a stretch
 ### 170709
 
-# Instalacion
+## Instalacion
 
 En la pagina de raspberry todavia tienen el raspian corriendo en jessie.
 
@@ -13,7 +13,7 @@ Para el primer booteo conecte la rpi2 con:
 - dongle wifi TP-Link
 - alimentacion
 
-# Configuracion
+## Configuracion
 
 Lo primero que hay que saber y que es muy dificil enterarse es:
 - user: pi
@@ -30,7 +30,7 @@ Las modificaciones basicas son:
 - habilitar el servicio ssh
 - ocupar toda la memoria SD
 
-## Dongle TL-WN725N
+### Dongle TL-WN725N
 
 No hubo que instalar el firmware del dongle, solo configurar la red.
 
@@ -50,7 +50,7 @@ iface wlan0 inet dhcp
     wpa-psk wifiBarrio48
 ```
 
-### eth0
+#### eth0
 
 Una alternativa cuando no se dispone mas que de una PC para entrar
 por ssh, puede ser agregando en /etc/network/interfaces
@@ -63,7 +63,7 @@ iface eth0 inet static
 
 > No se si va a funcionar
 
-# Stretch
+## Stretch
 
 Hasta ahora todo era en jessie, conviene hacer el upgrade a Stretch
 antes de ponerlo bonito (powerline, vim, etc)

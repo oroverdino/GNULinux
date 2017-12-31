@@ -1,4 +1,4 @@
-### Driver para mi Genius EasyPen i405X
+# Driver para mi Genius EasyPen i405X
 
 Funciona con wizardpen, que esta disponible en:
 [wizardpen](https://digimend.github.io/support/howto/drivers/wizardpen/)

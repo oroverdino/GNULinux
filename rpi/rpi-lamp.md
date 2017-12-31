@@ -1,21 +1,21 @@
-### LAMP in Raspberry Pi Zero W
+# LAMP in Raspberry Pi Zero W
 ### 171117
 
-# L
+## L
 
 Of course there is a raspian stretch running in the rpiz-w. That is the L part.
 ```
 sudo aptitude update && sudo aptitude full-upgrade
 ```
 
-# A
+## A
 
 Apache is the standard http server, so install it
 ```
 sudo aptitude install apache2
 ```
 
-# M
+## M
 
 Mariadb is the fork we'll choice
 ```
@@ -33,7 +33,7 @@ sudo mysql_secure_installation
 
 A password will be asked: mariadb.root
 
-# P
+## P
 
 PHP server is the reason for this LAMP, so
 ```
@@ -59,7 +59,7 @@ Finally we should restart apache2
 sudo systemctl restart apache2.service
 ```
 
-## Virtual hosts
+### Virtual hosts
 
 Let's setup a virtual host called sgu03
 ```
@@ -87,7 +87,7 @@ sudo a2ensite sgu03.conf
 
 Restart apache2 and get back to work!
 
-## phpMyAdmin
+### phpMyAdmin
 
 It's handy, so we should install it
 ```

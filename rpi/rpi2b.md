@@ -1,7 +1,7 @@
-### Instalacion raspian jessie
+# Instalacion raspian jessie
 ### 170710
 
-# Instalacion
+## Instalacion
 
 En la pagina de raspberry todavia tienen el raspian corriendo en jessie.
 
@@ -17,7 +17,7 @@ Para el primer booteo conecte la rpi2 con:
 - dongle wifi TP-Link
 - alimentacion
 
-# Configuracion
+## Configuracion
 
 Lo primero que hay que saber y que es muy dificil enterarse es:
 - user: pi
@@ -43,7 +43,7 @@ $ sudo passwd root
 ```
 donde root::rpi2.root
 
-## Dongle TL-WN725N
+### Dongle TL-WN725N
 
 No hubo que instalar el firmware del dongle, solo configurar la red.
 
@@ -63,7 +63,7 @@ iface wlan0 inet dhcp
     wpa-psk wifiBarrio48
 ```
 
-### eth0
+#### eth0
 
 Una alternativa cuando no se dispone mas que de una PC para entrar
 por ssh, puede ser agregando en /etc/network/interfaces
@@ -74,7 +74,7 @@ iface eth0 inet static
     netmask 255.255.255.0
 ```
 
-## Personalizacion
+### Personalizacion
 
 Los paquetes basicos a instalar luego de un full-upgrade son:
 - vim
@@ -83,7 +83,7 @@ Los paquetes basicos a instalar luego de un full-upgrade son:
 - tree
 - htop
 
-### Sincronizar GNULinux
+#### Sincronizar GNULinux
 
 Como en Jessie todavia no tenemos rclone, nos manejamos con rsync.
 
@@ -91,11 +91,11 @@ Luego modificamos los archivos:
 - /etc/bash.bashrc
 - /usr/share/powerline/config_files/colorscheme/default.json
 
-## Servidor web
+### Servidor web
 
 Sigo las instrucciones de [raspberry.org](https://www.raspberrypi.org/documentation/remote-access/web-server/apache.md).
 
-### Apache
+#### Apache
 
 Instalamos y testeamos el servidor
 ```
@@ -103,7 +103,7 @@ $ sudo aptitude install apache2
 $ hostname -I
 ```
 
-### PHP
+#### PHP
 
 Lo obvio siguiente es el servidor PHP. Las instrucciones las tome de [linode](https://www.linode.com/docs/web-servers/lamp/lamp-on-debian-8-jessie)
 ```
@@ -124,7 +124,7 @@ $ sudo mkdir /var/log/php
 $ sudo chown www-data /var/log/php
 ```
 
-### Cambiar la pagina web por default
+#### Cambiar la pagina web por default
 
 La pagina web esta en /var/www/html; vamos a cambiar un poco para tener
 muchos hosts virtuales. Empecemos con plumaverde.com de ejemplo.
@@ -151,7 +151,7 @@ hasta sites-enabled
 $ sudo a2ensite sgu01.conf
 ```
 
-### MariaDB
+#### MariaDB
 
 Vamos a instalar mariadb como el servidor sql:
 ```
@@ -165,7 +165,7 @@ Para el soporte de mariadb en PHP
 $ sudo aptitude install php5-myphp
 ```
 
-### phpMyAdmin
+#### phpMyAdmin
 
 Para instalar el gestor web phpMyAdmin tenemos que tener
 a mano el password del root de mariadb

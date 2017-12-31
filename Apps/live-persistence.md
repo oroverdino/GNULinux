@@ -1,12 +1,12 @@
-### Live Persistence
+# Live Persistence
 [stackexchange](https://unix.stackexchange.com/questions/382817/uefi-bios-bootable-live-debian-stretch-amd64-with-persistence)
 
-# Preparations
+## Preparations
 
 After download the last *live* version of Debian, you should check
 wich device is, for that you has lsblk command.
 
-## Create partitions
+### Create partitions
 
 First of all, unmount all the partitions of the target device; we'll
 call it from here */dev/sdX*.
@@ -28,7 +28,7 @@ parted /dev/sdX --script set 2 legacy_boot on
 parted /dev/sdX --script set 2 msftdata on
 ```
 
-## Create the filesystem
+### Create the filesystem
 
 The persistence feature requires ext4 and *persistence* as a label.
 The EFI needs FAT. (The last step takes a while, be patience.)
@@ -47,14 +47,14 @@ mount /dev/sdX3 /tmp/usb-persistence
 mount -oro live.iso /tmp/live-iso
 ```
 
-# Install the live system
+## Install the live system
 
 Now copy the live iso filesystem content to the live partition
 ```
 cp -ar /tmp/live-iso/* /tmp/usb-live
 ```
 
-## The persistence
+### The persistence
 
 The persistence won't work without this file:
 ```
@@ -65,7 +65,7 @@ Check before test the live image if persistence.conf exists
 in /tmp/usb-persistence. If the persistence feature doesn't work is
 because the file was not created.
 
-## UEFI support
+### UEFI support
 
 Install grub2 for UEFI booting support, this requires the *grub-efi-amd64-bin*
 package on Debian.
@@ -73,7 +73,7 @@ package on Debian.
 grub-install --removable --target=x86_64-efi --boot-directory=/tmp/usb-live/boot/ --efi-directory=/tmp/usb-efi /dev/sdX
 ```
 
-## legacy BIOS support
+### legacy BIOS support
 
 Install syslinux gptmbr.bin bootloader to the drive (download syslinux or 
 install package syslinux-common). Then install syslinux to the live partition.
@@ -89,7 +89,7 @@ mv /tmp/usb-live/syslinux/isolinux.bin /tmp/usb-live/syslinux/syslinux.bin
 mv /tmp/usb-live/syslinux/isolinux.cfg /tmp/usb-live/syslinux/syslinux.cfg
 ```
 
-## Kernel parameters
+### Kernel parameters
 
 Now that we copied the live system files to an actual read-write filesystem,
 we can manipulate the grub and syslinux config.
@@ -100,7 +100,7 @@ add the keyword persistence at the end of the respective first line with boot=li
 sed --in-place '0,/boot=live/{s/\(boot=live .*\)$/\1 persistence/}' /tmp/usb-live/boot/grub/grub.cfg /tmp/usb-live/syslinux/menu.cfg
 ```
 
-# Grub splash
+## Grub splash
 
 ```
 sed --in-place 's#isolinux/splash#syslinux/splash#' /tmp/usb-live/boot/grub/grub.cfg

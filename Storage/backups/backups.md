@@ -1,7 +1,7 @@
-### Notas sobre backups
+# Notas sobre backups
 ### 161015
 
-# Preparacion
+## Preparacion
 
 Lo primero que tuve que considerar es que estaba por utilizar un disco
 de 2.5" que tuve que cambiar por tener fallas.
@@ -24,7 +24,7 @@ el proceso tarda unas 3hs para un disco de 500GB
 # e2fsck -pcv /dev/sdb1
 ```
 
-# Backup Debian
+## Backup Debian
 
 Montamos las particiones necesarias
 ```
@@ -58,7 +58,7 @@ Para eso tenemos los archivos <dir>.exclusiones
     --delete <dir> <destino>
 ```
 
-## Importante
+### Importante
 
 El slash indica si se copia el directorio entero
 o solo su contenido, por ejemplo:

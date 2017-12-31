@@ -1,6 +1,6 @@
-### Zathura, pdf viewer
+# Zathura, pdf viewer
 
-# Instalaci'on
+## Instalaci'on
 
 Hasta ahora lo 'unico que hice fue
 ```
@@ -10,12 +10,12 @@ Hasta ahora lo 'unico que hice fue
 No encontr'e el archivo de configuraci'on *zathurarc*. Pero lo
 hice con vim y debe guardarse en ~/.config/zathura/zathurarc
 
-# Funcionamiento
+## Funcionamiento
 
 La p'agina del autor tiene la documentaci'on
 [zathura](https://pwmt.org/projects/zathura/documentation/)
 
-# Configuracion
+## Configuracion
 ```
 # Thinkpad mode
 set recolor-lightcolor "#323234"

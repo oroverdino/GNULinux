@@ -1,7 +1,7 @@
-### owncloud+rpi2
+# owncloud+rpi2
 ### 160828
 
-# Instalacion
+## Instalacion
 
 Partiendo de una instalacion limpia de raspbian-lite,
 se hace un aptitude full-upgrade.
@@ -31,7 +31,7 @@ De las notas de la instalacion nos pide que reiniciemos el servicio apache2
 $ sudo service apache2 reolad
 ```
 
-# Configuracion
+## Configuracion
 
 Finalmente, configuramos el servidor
 > http://localhost/owncloud

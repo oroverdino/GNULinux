@@ -1,4 +1,4 @@
-### Instalacion modulo tlp Thinkpad T430
+# Instalacion modulo tlp Thinkpad T430
 ### 171029
 
 # Problema resuelto en stretch con kernel 4.13

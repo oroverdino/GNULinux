@@ -1,6 +1,6 @@
-### Google Chrome en Debian
+# Google Chrome en Debian
 
-# Install via PPA
+## Install via PPA
 
 ```
 $ wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
@@ -18,7 +18,7 @@ $ sudo apt update
 $ sudo apt install google-chrome-stable
 ```
 
-# Repositorios de Google
+## Repositorios de Google
 
 Google tiene software en paquetes .deb directamente:
 [Linux Software Repositories](https://www.google.com/linuxrepositories/)

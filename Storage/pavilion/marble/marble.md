@@ -1,7 +1,7 @@
-### Configuracion Logitech Marble
+# Configuracion Logitech Marble
 ### 161115
 
-# Configuracion
+## Configuracion
 
 La documentacion la encontramos en [x.org] (https://www.x.org/archive//X11R7.0/doc/html/mouse.4.html).
 

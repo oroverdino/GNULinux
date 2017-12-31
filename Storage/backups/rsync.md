@@ -1,7 +1,7 @@
-### Backup con rsync
+# Backup con rsync
 ### 161106
 
-# Preparacion
+## Preparacion
 
 Primero montamos el disco donde vamos a hacer el backup:
 ```
@@ -11,7 +11,7 @@ $ sudo mount /dev/sdb1 /mnt
 
 Vaciamos la papelera.
 
-# Backup Debian
+## Backup Debian
 
 El backup lo hacemos en cinco partes:
 

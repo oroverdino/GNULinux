@@ -1,8 +1,8 @@
-### Debian Live Persistente en un USB
+# Debian Live Persistente en un USB
 
 Well, I went back to Ben Armstrong's tutorial and modified it so it would work for me. I'll post this here to get some confirmation that it works for others before reposting it in the Tutorials forum. I did this from a Debian jessie desktop, I'd love it if someone with a Waldorf or other wheezy system tested this. This is a bit long but it's not complicated. Just be sure to always use the USB drive letter for your drive. If you do a command to /dev/sda, you'll most likely be in a world of pain.
 
-# Create a Debian Live 8.1 (jessie) USB with Persistence
+ Create a Debian Live 8.1 (jessie) USB with Persistence
 
 You'll need any jessie Live ISO and a USB key of 8G minimum.
 
@@ -13,7 +13,7 @@ You'll also need the following packages...
 - syslinux
 - p7zip
 
-# Partition the USB Drive
+## Partition the USB Drive
 
 Open gparted, go to the drive drop-down menu in the upper-right corner (/dev/sda (x.x GiB) and choose your USB drive. Make sure any existing partitions on it are unmounted. If the drive size is 300 GiB, that's probably not the drive you want, monkey.
 
@@ -25,7 +25,7 @@ Right-click "unallocated" again and create an ext4 file system in the remaining 
 
 You should now have 2 partitions, /dev/sdX1, a fat32 partition with the Flag "boot" and /dev/sdX2, an ext4 partition with the Label "persistence". Close gparted.
 
-# Set Up the Master Boot Record
+## Set Up the Master Boot Record
 
 Make sure you use the right drive letter so you don't overwrite an existing mbr, like the one on your hard drive!!!
 Open a terminal and enter the following
@@ -38,7 +38,7 @@ That installs the MBR to the first sector of the drive, hence no number after th
 # syslinux -i /dev/sdX1
 ```
 
-# Extract the ISO to the First Partition
+## Extract the ISO to the First Partition
 
 Mount the partition to a directory, I use /mnt because it's empty.
 ```
@@ -53,7 +53,7 @@ Extract the ISO with p7zip. Mine is in ~/Documents and is named bl-live-rc1-i386
 
 Adjust your path and ISO name, of course. The extraction will take a few to several minutes.
 
-# Set Up Persistence
+## Set Up Persistence
 
 We're almost done. We need to rename some things and append the live boot parameters to make sure the ISO boots and is persistent. Run these commands, one at a time
 ```
@@ -88,7 +88,7 @@ I did these steps again as I was writing this, give me 10 minutes to check that 
 
 Cheers!
 
-## Disable user autologin
+### Disable user autologin
 
 First create root password, then to disable the graphical login, edit
 ```
