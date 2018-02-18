@@ -79,6 +79,14 @@ Para cambiar los colores hay que copiar los archivos dentro de:
 ```
 /usr/local/lib/python3.5/dist-packages/powerline/config_files
 ```
+Si no se disponen de los archivos config.json y colors.json hay que agregar en colors.json
+```
+"punto": [1, "fb0206"],
+"letra": [7, "d4d4d6"],
+"fondo": [0, "323234"]
+```
+y en config.json hay que cambiar _default_ por _thinkpad_ en las configuraciones de
+bash y de vim.
 
 Dentro de .../config-files/ van los archivos colors.json y config.json
 
