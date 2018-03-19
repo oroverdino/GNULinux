@@ -75,10 +75,12 @@ set rtp+=/usr/local/lib/python3.5/dist-packages/powerline/bindings/vim/
 
 No es necesario eliminar los atributos bold, eso desde la configuracion del terminal.
 
-Para cambiar los colores hay que copiar los archivos dentro de:
+Para cambiar los colores hay que sobreescribir los archivos config.json y colors.json que estan dentro de:
 ```
-/usr/local/lib/python3.5/dist-packages/powerline/config_files
+/usr/local/lib/python3.5/dist-packages/powerline/config_files/
 ```
+y copiar el archivo thinkpad.json en colorscheme, y vim_thinkpad.json en colorscheme/vim/thinkpad.json
+
 Si no se disponen de los archivos config.json y colors.json hay que agregar en colors.json
 ```
 "punto": [1, "fb0206"],

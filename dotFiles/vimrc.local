@@ -33,7 +33,7 @@ set shiftwidth=4
 set expandtab
 
 " Powerline
-"set rtp+=/usr/local/lib/python3.5/dist-packages/powerline/bindings/vim/
+set rtp+=/usr/local/lib/python3.5/dist-packages/powerline/bindings/vim/
 
 " Color column
 "set cc=78
