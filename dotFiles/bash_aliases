@@ -19,7 +19,8 @@ alias gugler='/home/leandro/Documents/GNULinux/scripts/gugler.sh'
 alias rata='/home/leandro/Documents/GNULinux/scripts/rata.sh'
 
 # rsync Linode
-alias linode='/home/leandro/Documents/Gugler/PHP/syncLinode.sh'
+#alias linode='/home/leandro/Documents/Gugler/PHP/syncLinode.sh'
+alias linode='/home/leandro/Documents/GNULinux/scripts/linode.sh'
 
 # rsync Raspberry Pi Zero
 alias rpiz='/home/leandro/Documents/Gugler/PHP/syncRpiz.sh'
