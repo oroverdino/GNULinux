@@ -1,5 +1,5 @@
 # Notas sobre backups
-### 161015
+### 180325
 
 ## Preparacion
 
@@ -7,9 +7,9 @@ Lo primero que tuve que considerar es que estaba por utilizar un disco
 de 2.5" que tuve que cambiar por tener fallas.
 
 Para hacer uso de una herramienta que marca los sectores defectuosos tenia
-que usar ext2, ext3 o ext4. Como es externo, no necesito journaling: ext2.
+que usar ext2, ext3 o ext4.
 
-Con el gparted formateo en ext2. Luego me aseguro que sea sdb1
+Con el gparted formateo en ext4. Luego me aseguro que sea sdb1
 ```
 # fdisk -l
 ```
@@ -54,8 +54,12 @@ Vaciamos la papelera y hacemos un backup en cinco partes:
 
 Para eso tenemos los archivos <dir>.exclusiones
 ```
-# rsync -avh --exclude-from '<dir>.exclusiones' --progress
-    --delete <dir> <destino>
+# rsync -aXAvhuP --exclude-from '<dir>.exclusiones' --delete <dir> <destino>
+```
+
+Considerar tambien esta linea:
+```
+rsync -aAXP --info=progress2 --exclude={"/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*","/lost+found"} / /path/to/backup/folder
 ```
 
 ### Importante

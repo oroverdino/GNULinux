@@ -1,5 +1,5 @@
 # Backup con rsync
-### 161106
+### 180325
 
 ## Preparacion
 
@@ -35,6 +35,5 @@ excepto
 
 Para eso est'an los archivos <dir>.exclusiones; entonces
 ```
-$ rsync -avh --exclude-from '<dir>.exclusiones' --progress
-    --delete <origen> <destino>
+$ rsync -aXAvuhP --exclude-from '<dir>.exclusiones' --delete <origen> <destino>
 ```
