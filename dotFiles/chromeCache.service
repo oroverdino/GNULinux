@@ -1,0 +1,10 @@
+[Unit]
+Description=Monta el cache de Chrome en la RAM
+
+[Service]
+Type=simple
+User=root
+ExecStart=/home/leandro/Documents/GNULinux/scripts/chromeCache.sh
+
+[Install]
+WantedBy=multi-user.target
