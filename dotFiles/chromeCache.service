@@ -1,5 +1,6 @@
 [Unit]
 Description=Monta el cache de Chrome en la RAM
+ConditionPathIsDirectory=/home/leandro/.cache/google-chrome/Default/Cache
 
 [Service]
 Type=simple
