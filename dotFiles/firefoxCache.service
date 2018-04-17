@@ -1,0 +1,11 @@
+[Unit]
+Description=Monta el cache de Firefox en la RAM
+ConditionPathIsDirectory=/home/leandro/.cache/mozilla/firefox/qt0s1j5p.default
+
+[Service]
+Type=simple
+User=root
+ExecStart=/home/leandro/Documents/GNULinux/scripts/firefoxCache.sh
+
+[Install]
+WantedBy=multi-user.target
