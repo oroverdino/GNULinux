@@ -1,6 +1,7 @@
 # vim
 [._]*.swap
 [._]*swap
+[._]*swp
 
 # packages
 *.7z
