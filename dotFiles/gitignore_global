@@ -29,3 +29,6 @@
 ~$*.xls*
 *.xlk
 ~$*.ppt*
+
+# ansi C
+*.out
