@@ -3,8 +3,7 @@ Description=Monta el cache de Chrome en la RAM
 ConditionPathIsDirectory=/home/leandro/.cache/google-chrome/Default/Cache
 
 [Service]
-Type=simple
-User=root
+Type=oneshot
 ExecStart=/home/leandro/Documents/GNULinux/scripts/chromeCache.sh
 
 [Install]
