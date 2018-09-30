@@ -36,7 +36,8 @@ set expandtab
 set rtp+=/usr/local/lib/python3.5/dist-packages/powerline/bindings/vim/
 
 " Thinkpad
-colorscheme thinkpad
+"colorscheme thinkpad
+colorscheme molokai
 
 " Color column
 "set cc=78
