@@ -1,0 +1,6 @@
+[Unit]
+Description=Prueba del timer de systemd
+
+[Service]
+Type=oneshot
+ExecStart=/home/leandro/Documents/Gugler/bellTest/bellTest.sh

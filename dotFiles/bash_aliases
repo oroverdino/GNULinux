@@ -24,3 +24,6 @@ alias linode='/home/leandro/Documents/GNULinux/scripts/linode.sh'
 
 # rsync Raspberry Pi Zero
 alias rpiz='/home/leandro/Documents/Gugler/PHP/syncRpiz.sh'
+
+# systemd
+alias scs='systemctl status'

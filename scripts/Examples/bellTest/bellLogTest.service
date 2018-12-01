@@ -1,0 +1,9 @@
+[Unit]
+Description=Log the action
+
+[Service]
+Type=oneshot
+ExecStart=/home/leandro/Documents/Gugler/bellTest/bellLogTest.sh
+
+[Install]
+WantedBy=bellTest.service
