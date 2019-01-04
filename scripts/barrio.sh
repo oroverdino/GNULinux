@@ -2,19 +2,19 @@
 
 case "$1" in
     to)
-        echo "sync to onedrive - - - - - - - - - - - - - - - - - - - - - - -"
-        rclone -v sync /home/leandro/Documents/Barrio onedrive:/Barrio
+        echo "sync to drive - - - - - - - - - - - - - - - - - - - - - - -"
+        rclone -v sync /home/leandro/Documents/Barrio drive:/Barrio
         ;;
     from)
-        echo "sync from onedrive - - - - - - - - - - - - - - - - - - - - - - -"
-        rclone -v sync onedrive:/Barrio /home/leandro/Documents/Barrio
+        echo "sync from drive - - - - - - - - - - - - - - - - - - - - - - -"
+        rclone -v sync drive:/Barrio /home/leandro/Documents/Barrio
         ;;
     dry)
         echo "first to - - - - - - - - - - - - - - - - - - - - - - -"
-        rclone -v sync --dry-run /home/leandro/Documents/Barrio onedrive:/Barrio
+        rclone -v sync --dry-run /home/leandro/Documents/Barrio drive:/Barrio
         echo ""
         echo "then from - - - - - - - - - - - - - - - - - - - - - - -"
-        rclone -v sync --dry-run onedrive:/Barrio /home/leandro/Documents/Barrio
+        rclone -v sync --dry-run drive:/Barrio /home/leandro/Documents/Barrio
         ;;
     *)
         echo "to or from, but first do a dry"

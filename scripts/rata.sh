@@ -1,22 +1,22 @@
-#!/bin/sh
+#!/bin/bash
 
 case "$1" in
-    to)
-        echo "copy to onedrive - - - - - - - - - - - - - - - - - - - - - - -"
-        rclone -v copy /home/leandro/Documents/rata.ods onedrive:/Documentos
+    push)
+        echo "push to onedrive - - - - - - - - - - - - - - - - - - - - - - -"
+        rclone -v sync /home/leandro/Documents/ratRace onedrive:/Documentos/ratRace
         ;;
-    from)
-        echo "copy from onedrive - - - - - - - - - - - - - - - - - - - - - - -"
-        rclone -v copy onedrive:/Documentos/rata.ods /home/leandro/Documents
+    pull)
+        echo "pull from onedrive - - - - - - - - - - - - - - - - - - - - - - -"
+        rclone -v sync onedrive:/Documentos/ratRace /home/leandro/Documents/ratRace
         ;;
     dry)
-        echo "first to - - - - - - - - - - - - - - - - - - - - - - -"
-        rclone -v copy --dry-run /home/leandro/Documents/rata.ods onedrive:/Documentos
+        echo "first push - - - - - - - - - - - - - - - - - - - - - - -"
+        rclone -v sync --dry-run /home/leandro/Documents/ratRace onedrive:/Documentos/ratRace
         echo ""
-        echo "then from - - - - - - - - - - - - - - - - - - - - - - -"
-        rclone -v copy --dry-run onedrive:/Documentos/rata.ods /home/leandro/Documents
+        echo "then pull - - - - - - - - - - - - - - - - - - - - - - -"
+        rclone -v sync --dry-run onedrive:/Documentos/ratRace /home/leandro/Documents/ratRace
         ;;
     *)
-        echo "to or from, but first do a dry"
+        echo "pull or push, but first do a dry"
         ;;
 esac
