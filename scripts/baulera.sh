@@ -1,5 +1,3 @@
-#!/bin/sh
-
 case "$1" in
     to)
         echo "sync to onedrive - - - - - - - - - - - - - - - - - - - - - - -"

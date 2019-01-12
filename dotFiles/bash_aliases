@@ -1,7 +1,7 @@
 # alias mios que deben agregarse en el home
 # recordar que es .bash_aliases
 alias ll='ls -alh'
-alias t2='tree -L 2'
+alias t2='tree -L 2 -sh'
 alias suspend='systemctl suspend'
 
 # markdown
