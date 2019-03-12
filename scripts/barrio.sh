@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 
 case "$1" in
     push)
@@ -17,6 +17,6 @@ case "$1" in
         rclone -v sync --dry-run onedrive:Barrio /home/leandro/Documents/Barrio
         ;;
     *)
-        echo "to or from, but first do a dry"
+        echo "push or pull, but first do a dry"
         ;;
 esac

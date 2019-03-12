@@ -27,3 +27,6 @@ alias rpiz='/home/leandro/Documents/Gugler/PHP/syncRpiz.sh'
 
 # systemd
 alias scs='systemctl status'
+
+# mikrotik
+alias mikrotik='/home/leandro/Documents/GNULinux/scripts/mikrotik.sh'
