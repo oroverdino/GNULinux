@@ -1,13 +1,13 @@
-#!/bin/sh
+#!/usr/bin/bash
 
 case "$1" in
-    to)
-        echo "sync to drive - - - - - - - - - - - - - - - - - - - - - - -"
-        rclone sync /home/leandro/Documents/Gugler drive:/Gugler
+    push)
+        echo "push to drive - - - - - - - - - - - - - - - - - - - - - - -"
+        rclone -P sync /home/leandro/Documents/Gugler drive:/Gugler
         ;;
-    from)
-        echo "sync from drive - - - - - - - - - - - - - - - - - - - - - - -"
-        rclone sync drive:/Gugler /home/leandro/Documents/Gugler
+    pull)
+        echo "pull from drive - - - - - - - - - - - - - - - - - - - - - - -"
+        rclone -P sync drive:/Gugler /home/leandro/Documents/Gugler
         ;;
     dry)
         echo "first to - - - - - - - - - - - - - - - - - - - - - - -"
@@ -17,6 +17,6 @@ case "$1" in
         rclone sync --dry-run drive:/Gugler /home/leandro/Documents/Gugler
         ;;
     *)
-        echo "to or from, but first do a dry"
+        echo "push or pull, but first do a dry"
         ;;
 esac

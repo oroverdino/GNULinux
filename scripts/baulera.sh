@@ -1,20 +1,20 @@
 case "$1" in
-    to)
+    push)
         echo "sync to onedrive - - - - - - - - - - - - - - - - - - - - - - -"
         rclone -v sync /home/leandro/Pictures/Baulera onedrive:/Pictures/Baulera
         ;;
-    from)
+    pull)
         echo "sync from onedrive - - - - - - - - - - - - - - - - - - - - - - -"
         rclone -v sync onedrive:/Pictures/Baulera /home/leandro/Pictures/Baulera
         ;;
     dry)
-        echo "first to - - - - - - - - - - - - - - - - - - - - - - -"
+        echo "first push - - - - - - - - - - - - - - - - - - - - - - -"
         rclone sync --dry-run /home/leandro/Pictures/Baulera onedrive:/Pictures/Baulera
         echo ""
-        echo "then from - - - - - - - - - - - - - - - - - - - - - - -"
+        echo "then pull - - - - - - - - - - - - - - - - - - - - - - -"
         rclone sync --dry-run onedrive:/Pictures/Baulera /home/leandro/Pictures/Baulera
         ;;
     *)
-        echo "to or from, but first do a dry"
+        echo "push or pull, but first do a dry"
         ;;
 esac

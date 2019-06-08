@@ -9,7 +9,7 @@ set t_Co=256
 " basico
 set number ruler hlsearch
 set laststatus=2
-set relativenumber
+"set relativenumber
 
 " remapeamos algunas cosas
 noremap <F12> :update<CR>
@@ -41,12 +41,13 @@ set showcmd
 "set rtp+=/usr/local/lib/python3.5/dist-packages/powerline/bindings/vim/
 
 " Thinkpad
+colorscheme kuroi
 "colorscheme thinkpad
 "colorscheme molokai
-colorscheme sublimemonokai
+"colorscheme sublimemonokai
 
 " Color column
-"set cc=78
+set cc=79
 
 " Resaltar linea
 set cursorline
@@ -55,3 +56,4 @@ set cursorline
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme = 'base16_monokai'
+"let g:airline_theme = 'angr'
