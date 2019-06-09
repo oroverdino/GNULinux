@@ -4,6 +4,9 @@ alias ll='ls -alh'
 alias t2='tree -L 2 -sh'
 alias suspend='systemctl suspend'
 
+# transparency
+alias transparency='/home/leandro/Documents/GNULinux/scripts/transparency.sh'
+
 # markdown
 alias md='/home/leandro/Documents/GNULinux/scripts/md.sh'
 

@@ -41,8 +41,8 @@ set showcmd
 "set rtp+=/usr/local/lib/python3.5/dist-packages/powerline/bindings/vim/
 
 " Thinkpad
-colorscheme kuroi
-"colorscheme thinkpad
+"colorscheme kuroi
+colorscheme thinkpad
 "colorscheme molokai
 "colorscheme sublimemonokai
 
@@ -50,10 +50,10 @@ colorscheme kuroi
 set cc=79
 
 " Resaltar linea
-set cursorline
+"set cursorline
 
 " Airline
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
-let g:airline_theme = 'base16_monokai'
-"let g:airline_theme = 'angr'
+"let g:airline_theme = 'base16_monokai'
+let g:airline_theme = 'angr'
