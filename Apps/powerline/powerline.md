@@ -10,6 +10,12 @@ $ sudo aptitude install powerline
 ```
 eso es todo.
 
+Actualizacion: desde Buster conviene instalar Airline para vim y un aditivo
+para las carpetas de la shell con git:
+```
+# aptitude install vim-airline powerline-gitstatus
+```
+
 ### Shell
 
 Hay que agregar al final de /etc/bash.bashrc (para tal fin dej'e un archivo,
@@ -19,78 +25,34 @@ bash.bashrc.tail)
 if [ -f /usr/share/powerline/bindings/bash/powerline.sh ]; then
     source /usr/share/powerline/bindings/bash/powerline.sh
 fi
-
-# Caps por Escape
-setxkbmap -option caps:escape
 ```
-
-### Vim
-
-Sigue sin funcionar en vim
-
 ### Personalizacion
 
-En el archivo '/usr/share/powerline/config-files/colorscheme/default.json' se pueden cambiar los colores.
-
-## Desde git
-
-Desde el repositorio no pude configurar powerline para vim. Pero segui las instrucciones de
-[levlaz](https://levlaz.org/installing-powerline-in-debian/)
-
-Las instrucciones estan dadas para python2.7, yo estoy con el python3.5.
-
-```
-$ sudo apt install vim-nox git python3-pip
-$ sudo pip3 install git+git://github.com/Lokaltog/powerline
-```
-
-Instalamos las fuentes
-```
-$ wget https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf 
-$ wget https://github.com/Lokaltog/powerline/raw/develop/font/10-powerline-symbols.conf 
-$ sudo mv PowerlineSymbols.otf /usr/share/fonts/ 
-$ sudo fc-cache -vf 
-$ sudo mv 10-powerline-symbols.conf /etc/fonts/conf.d/
-```
-
-### Shell
-
-Al final de /etc/bash.bashrc hay que agregar
-```
-# Powerline
-if [ -f /usr/local/lib/python3.5/dist-packages/powerline/bindings/bash/powerline.sh ]; then
-     source /usr/local/lib/python3.5/dist-packages/powerline/bindings/bash/powerline.sh
-fi
-```
-
-### Vim
-
-Al final de ~/.vimrc hay que agregar
-```
-" Powerline
-set rtp+=/usr/local/lib/python3.5/dist-packages/powerline/bindings/vim/
-```
+En el archivo '/usr/share/powerline/config-files/colorscheme/default.json'
+se pueden cambiar los colores.
 
 ### Personalizacion para mi Thinkpad
 
-No es necesario eliminar los atributos bold, eso desde la configuracion del terminal.
+No es necesario eliminar los atributos bold, eso desde la configuracion del
+terminal, en el mismo sentido cambiar capsLock por Esc se hace desde la
+configuracion del teclado.
 
-Para cambiar los colores hay que sobreescribir los archivos config.json y colors.json que estan dentro de:
+Para cambiar los colores hay que modificar los archivos config.json y
+colors.json que estan dentro de:
 ```
-/usr/local/lib/python3.5/dist-packages/powerline/config_files/
+/usr/share/powerline/config-files/
 ```
-y copiar el archivo thinkpad.json en colorscheme, y vim_thinkpad.json en colorscheme/vim/thinkpad.json
+y copiar el archivo thinkpad.json en colorscheme/
 
-Si no se disponen de los archivos config.json y colors.json hay que agregar en colors.json
+Hay que agregar en colors.json (en Apps/powerline/ hay una copia):
 ```
 "punto": [1, "fb0206"],
 "letra": [7, "d4d4d6"],
 "fondo": [0, "323234"]
 ```
-y en config.json hay que cambiar _default_ por _thinkpad_ en las configuraciones de
-bash y de vim.
+y en config.json hay que cambiar _default_ por _thinkpad_ en las
+configuraciones de shell
 
-Dentro de .../config-files/ van los archivos colors.json y config.json
-
-Dentro de .../colorschemes/ va thinkpad.json y dentro del directorio vim
-va vim_thinkpad.json (renombrado thinkpad.json).
+En resumen:
+1. Sobreescribir colors.json y config.json con los archivos de Apps/powerline
+2. Dentro de .../colorschemes/ va thinkpad.json

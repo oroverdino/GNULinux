@@ -50,7 +50,7 @@ colorscheme thinkpad
 set cc=79
 
 " Resaltar linea
-"set cursorline
+set cursorline
 
 " Airline
 let g:airline_powerline_fonts = 1
