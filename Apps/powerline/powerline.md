@@ -55,4 +55,4 @@ configuraciones de shell
 
 En resumen:
 1. Sobreescribir colors.json y config.json con los archivos de Apps/powerline
-2. Dentro de .../colorschemes/ va thinkpad.json
+2. Dentro de .../colorschemes/ copiar thinkpad.json
