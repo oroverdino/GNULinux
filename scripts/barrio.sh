@@ -9,14 +9,11 @@ case "$1" in
         echo "sync from onedrive - - - - - - - - - - - - - - - - - - - - - - -"
         rclone -P sync onedrive:Barrio /home/leandro/Documents/Barrio
         ;;
-    dry)
-        echo "first to - - - - - - - - - - - - - - - - - - - - - - -"
-        rclone -P sync --dry-run /home/leandro/Documents/Barrio onedrive:Barrio
-        echo ""
-        echo "then from - - - - - - - - - - - - - - - - - - - - - - -"
-        rclone -P sync --dry-run onedrive:Barrio /home/leandro/Documents/Barrio
+    check)
+        echo "check - - - - - - - - - - - - - - - - - - - - - - -"
+        rclone -P check /home/leandro/Documents/Barrio onedrive:Barrio
         ;;
     *)
-        echo "push or pull, but first do a dry"
+        echo "push or pull, but first check"
         ;;
 esac

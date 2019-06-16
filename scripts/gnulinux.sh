@@ -9,14 +9,11 @@ case "$1" in
         echo "sync from drive - - - - - - - - - - - - - - - - - - - - - - -"
         rclone -P sync drive:/GNULinux /home/leandro/Documents/GNULinux
         ;;
-    dry)
-        echo "first push - - - - - - - - - - - - - - - - - - - - - - -"
-        rclone -v sync --dry-run /home/leandro/Documents/GNULinux drive:/GNULinux
-        echo ""
-        echo "then pull - - - - - - - - - - - - - - - - - - - - - - -"
-        rclone -v sync --dry-run drive:/GNULinux /home/leandro/Documents/GNULinux
+    check)
+        echo "check - - - -- - - - - - - - - - - - - - - - - - - - - - -"
+        rclone -P check /home/leandro/Documents/GNULinux drive:/GNULinux
         ;;
     *)
-        echo "push or pull, but first do a dry"
+        echo "push or pull, but first check"
         ;;
 esac
