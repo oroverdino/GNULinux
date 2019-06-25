@@ -36,7 +36,7 @@ $ mkdir ~/.fonts
 ```
 
 luego copiamos ahi las fuentes que estan en la carpeta fonts,
-y finalmente en ~/.i3/config la cambiamos
+y finalmente en ~/.config/i3/config la cambiamos
 ```
 ##font pango:DejaVu Sans Mono 8
 font pango:System San Francisco Display 10

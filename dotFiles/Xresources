@@ -89,8 +89,8 @@ XTerm*jumpScroll:         true
 XTerm*multiScroll:        true
 XTerm*toolBar:            false
 XTerm*selectToClipboard:  true
-XTerm*visualBell:         true
-XTerm*visualBellLine:     true
+XTerm*visualBell:         false
+XTerm*visualBellLine:     false
 
 UXTerm*background:        _background
 UXTerm*foreground:        _foreground

@@ -29,6 +29,12 @@ $ sudo ln -s /usr/share/desktop-base/active-theme/grub/debian.png
     /etc/alternatives/desktop-grub
 $ sudo update-grub
 ```
+
+### update debian buster
+```
+$ sudo exec /usr/sbin/grub-mkconfig -o /boot/grub/grub.cfg "$@"
+```
+
 ## Lightdm splash image
 
 It's really nice if you use the same png file for the background of your login.

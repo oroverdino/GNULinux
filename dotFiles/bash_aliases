@@ -35,4 +35,4 @@ alias scs='systemctl status'
 alias mikrotik='/home/leandro/Documents/GNULinux/scripts/mikrotik.sh'
 
 # gugler
-alias gp='cd /home/leandro/Documents/Gugler/Python/'
+alias gp='cd /home/leandro/Documents/Gugler/guglerTpfPython/'
