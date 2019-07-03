@@ -1,3 +1,3 @@
-#!/bin/sh
+#!/bin/bash
 
-mount -t tmpfs -o size=1G tmpfs /home/leandro/.cache/google-chrome/Default/Cache
+mount -t tmpfs -o size=256M tmpfs /home/leandro/.cache/google-chrome/Default/Cache
