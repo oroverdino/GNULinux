@@ -1,5 +1,5 @@
 # Configuracion de grub2
-### 180101
+### 190707
 
 ## Grub splash image
 
@@ -31,8 +31,10 @@ $ sudo update-grub
 ```
 
 ### update debian buster
+
+If there's a problem with update-grub the only thing to do is fix the PATH:
 ```
-$ sudo exec /usr/sbin/grub-mkconfig -o /boot/grub/grub.cfg "$@"
+$ sudo export PATH=$PATH:/usr/sbin
 ```
 
 ## Lightdm splash image

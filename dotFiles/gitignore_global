@@ -1,4 +1,4 @@
-# git config --global core.excludesfiles ~/.gitignore_global
+# git config --global core.excludesfiles /home/leandro/GNULinux/dotFiles/gitignore_global
 #
 
 # vim

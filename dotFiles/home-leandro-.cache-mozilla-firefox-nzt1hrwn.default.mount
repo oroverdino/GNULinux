@@ -1,0 +1,25 @@
+# Copiar en /etc/systemd/system
+#
+# Reemplazar <?> por el nombre del directorio asignado
+#
+# Activar:
+# # systectl enable home-leandro-.cache-mozilla-firefox-<?>.default.mount
+#
+# leandro torres - july 2019
+
+[Unit]
+Description=Monta la cache de Mozilla Firefox en tmpfs
+ConditionPathIsSymbolicLink=!/home/leandro/.cache/mozilla/firefox/<?>.default
+DefaultDependencies=no
+Conflicts=umount.target
+Before=local-fs.target umount.target
+After=swap.target
+
+[Mount]
+What=tmpfs
+Where=/home/leandro/.cache/mozilla/firefox/<?>.default
+Type=tmpfs
+Options=mode=1777,strictatime,nosuid,nodev
+
+[Install]
+WantedBy=local-fs.target

@@ -1,0 +1,23 @@
+# Copiar en /etc/systemd/system
+#
+# Activar:
+# # systemctl enable home-leandro-.cache-google\x2dchrome-Default-Cache.mount
+#
+# leandro torres - july 2019
+
+[Unit]
+Description=Monta la cache de Google Chrome en tmpfs
+ConditionPathIsSymbolicLink=!/home/leandro/.cache/google-chrome/Default/Cache
+DefaultDependencies=no
+Conflicts=umount.target
+Before=local-fs.target umount.target
+After=swap.target
+
+[Mount]
+What=tmpfs
+Where=/home/leandro/.cache/google-chrome/Default/Cache
+Type=tmpfs
+Options=mode=1777,strictatime,nosuid,nodev
+
+[Install]
+WantedBy=local-fs.target

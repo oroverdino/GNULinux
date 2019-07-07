@@ -42,9 +42,9 @@ set showcmd
 
 " Thinkpad
 "colorscheme kuroi
-colorscheme thinkpad
+"colorscheme thinkpad
 "colorscheme molokai
-"colorscheme sublimemonokai
+colorscheme sublimemonokai
 
 " Color column
 set cc=79
