@@ -14,7 +14,7 @@ let g:colors_name="thinkpad"
 
 " Vim >= 7.0 specific colors
 if version >= 700
-    hi CursorLine                       guibg=#000000
+    hi CursorLine       guifg=#323234   guibg=#000000
     hi CursorColumn                     guibg=#2d2d2d
     hi MatchParen       guifg=#ffffff   guibg=#333333   gui=bold
     hi Pmenu            guifg=#ffffff   guibg=#666666

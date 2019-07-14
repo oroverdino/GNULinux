@@ -9,7 +9,8 @@ case "$1" in
         ;;
     check)
         echo "check onedrive- - - - - - - - - - - - - - - - - - - - - - -"
-        rclone -P check /home/leandro/Pictures/Baulera onedrive:/Pictures/Baulera         ;;
+        rclone -P check /home/leandro/Pictures/Baulera onedrive:/Pictures/Baulera
+        ;;
     *)
         echo "push or pull, but first check"
         ;;

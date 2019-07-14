@@ -56,3 +56,10 @@ configuraciones de shell
 En resumen:
 1. Sobreescribir colors.json y config.json con los archivos de Apps/powerline
 2. Dentro de .../colorschemes/ copiar thinkpad.json
+
+### Actualizacion Buster
+
+Para modificar el usuario hay que copiar el directorio powerline en ~/.config
+```
+$ cp -r /home/leandro/Documents/GNULinux/dotFiles/powerline /home/leandro/.config/
+```

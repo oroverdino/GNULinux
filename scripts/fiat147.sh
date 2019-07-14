@@ -1,22 +1,19 @@
 #!/bin/sh
 
 case "$1" in
-    to)
+    push)
         echo "sync to onedrive - - - - - - - - - - - - - - - - - - - - - - -"
-        rclone sync /home/leandro/Documents/Fiat147 onedrive:/Documentos/Fiat147
+        rclone -P sync /home/leandro/Documents/Fiat147 onedrive:/Documentos/Fiat147
         ;;
-    from)
+    pull)
         echo "sync from onedrive - - - - - - - - - - - - - - - - - - - - - - -"
-        rclone sync onedrive:/Documentos/Fiat147 /home/leandro/Documents/Fiat147
+        rclone -P sync onedrive:/Documentos/Fiat147 /home/leandro/Documents/Fiat147
         ;;
-    dry)
-        echo "first to - - - - - - - - - - - - - - - - - - - - - - -"
-        rclone sync --dry-run /home/leandro/Documents/Fiat147 onedrive:/Documentos/Fiat147
-        echo ""
-        echo "then from - - - - - - - - - - - - - - - - - - - - - - -"
-        rclone sync --dry-run onedrive:/Documentos/Fiat147 /home/leandro/Documents/Fiat147
-        ;;
+    check)
+        echo "check onedrive - - - - - - - - - - - - - - - - - - - - - - -"
+        rclone -P check /home/leandro/Documents/Fiat147 onedrive:/Documentos/Fiat147
+       ;;
     *)
-        echo "to or from, but first do a dry"
+        echo "push or pull, but first check"
         ;;
 esac

@@ -26,7 +26,8 @@ let g:colors_name = "kuroi"
 let s:palette = {'gui' : {} , 'cterm' : {}}
 
 let s:gui_background = "#1b1918"
-let s:gui_selection  = "#373b41"
+"let s:gui_selection  = "#373b41"
+let s:gui_selection  = "#d2d2d4"
 let s:gui_line       = "#282a2e"
 let s:gui_comment    = "#707880"
 
@@ -229,7 +230,7 @@ exe "hi! Folded"        .s:fg_comment     .s:bg_darkcolumn  .s:fmt_none
 exe "hi! FoldColumn"    .s:fg_none        .s:bg_darkcolumn  .s:fmt_none
 exe "hi! SignColumn"    .s:fg_none        .s:bg_darkcolumn  .s:fmt_none
 "   Incsearch"
-exe "hi! LineNr"        .s:fg_selection   .s:bg_none        .s:fmt_none
+exe "hi! LineNr"        .s:fg_foreground  .s:bg_none        .s:fmt_none
 exe "hi! CursorLineNr"  .s:fg_yellow      .s:bg_none        .s:fmt_none
 exe "hi! MatchParen"    .s:fg_background  .s:bg_changebg    .s:fmt_none
 exe "hi! ModeMsg"       .s:fg_green       .s:bg_none        .s:fmt_none
