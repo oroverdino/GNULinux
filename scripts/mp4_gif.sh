@@ -11,3 +11,4 @@ ffmpeg -i <video.mp4> -r 5 'frames/frame-%03d.jpg'
 #   2: 50 fps, 5: 20 fps, 20: 5 fps, 50: 2 fps
 cd frame
 convert -delay 20 -loop 0 *.jpg myGif.gif
+aptitude install imagemagick

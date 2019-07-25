@@ -9,6 +9,21 @@
 			"args": {
 				"dir_limit_depth": 3
 			}
-		}
+		},
+        "gitstatus": {
+            "args": { 
+                "formats": {
+                    "branch": "\ue0a0 {}",
+                    "tag": " ★ {}",
+                    "behind": " ↓ {}",
+                    "ahead": " ↑ {}",
+                    "staged": " ● {}",
+                    "unmerged": " ✖ {}",
+                    "changed": " ✚ {}",
+                    "untracked": " … {}",
+                    "stashed": " ⚑ {}"
+                }
+            }
+        }
 	}
 }
