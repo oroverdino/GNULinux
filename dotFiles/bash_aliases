@@ -20,6 +20,7 @@ alias fiat147='/home/leandro/Documents/GNULinux/scripts/fiat147.sh'
 alias gnulinux='/home/leandro/Documents/GNULinux/scripts/gnulinux.sh'
 alias gugler='/home/leandro/Documents/GNULinux/scripts/gugler.sh'
 alias rata='/home/leandro/Documents/GNULinux/scripts/rata.sh'
+alias tuped='/home/leandro/Documents/GNULinux/scripts/tuped.sh'
 
 # rsync Linode
 #alias linode='/home/leandro/Documents/Gugler/PHP/syncLinode.sh'

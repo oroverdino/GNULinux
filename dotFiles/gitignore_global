@@ -35,3 +35,6 @@
 
 # ansi C
 *.out
+
+# papers
+*.pdf
