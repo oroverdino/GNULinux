@@ -1,5 +1,0 @@
-# Hay que agregar este archivo en /etc/sudoers.d/
-# con rr- y root:root
-
-# User privilege specification
-leandro	ALL=NOPASSWD:ALL
