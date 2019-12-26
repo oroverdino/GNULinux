@@ -24,6 +24,7 @@ set scrolloff=5
 filetype plugin on
 filetype plugin indent on
 syntax on
+set background=dark
 
 " show existing tab with 4 spaces width
 set tabstop=4
