@@ -42,7 +42,7 @@
 *.color15:      #f9f9f9
 
 !! URxvt Appearance
-URxvt.font: xft:Inconsolata for Powerline:pixelsize=16
+URxvt.font: xft:Inconsolata for Powerline:pixelsize=14
 URxvt.boldFont: 
 URxvt.italicFont: 
 URxvt.boldItalicfont: 
@@ -58,6 +58,9 @@ URxvt.scrollBar_right: false
 URxvt.urgentOnBell: true
 URxvt.depth: 32
 URxvt.iso14755: false
+!! Transparence
+URxvt.background: [80]#0C0020
+URxvt.foreground: [100]#FFFFFF
 
 !! URxvt extensions
 URxvt.perl-ext-common: clipboard-osc
