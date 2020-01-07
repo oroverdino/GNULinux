@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# si hay click en la fecha se muestra el calendario
+if [[ "$BLOCK_BUTTON" -eq 1 ]]; then
+    notify-send "`ncal -hb`"
+fi
+
+date '+%m%d %H:%M' 

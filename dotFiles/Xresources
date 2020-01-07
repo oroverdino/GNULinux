@@ -59,7 +59,7 @@ URxvt.urgentOnBell: true
 URxvt.depth: 32
 URxvt.iso14755: false
 !! Transparence
-URxvt.background: [80]#323234 
+URxvt.background: [90]#323234 
 URxvt.foreground: [100]#d2d2d4
 
 

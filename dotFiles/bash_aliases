@@ -12,6 +12,7 @@ alias md='/home/leandro/Documents/GNULinux/scripts/md.sh'
 
 # wttr
 alias wttr='/home/leandro/Documents/GNULinux/scripts/wttr.sh'
+alias wttr2='/home/leandro/Documents/GNULinux/scripts/wttr2.sh'
 
 # rclone
 alias baulera='/home/leandro/Documents/GNULinux/scripts/baulera.sh'
@@ -35,5 +36,5 @@ alias scs='systemctl status'
 # mikrotik
 alias mikrotik='/home/leandro/Documents/GNULinux/scripts/mikrotik.sh'
 
-# gugler
-alias gp='cd /home/leandro/Documents/Gugler/guglerTpfPython/'
+# git
+alias git_graph='git log --all --decorate --oneline --graph'

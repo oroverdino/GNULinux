@@ -1,0 +1,10 @@
+# copy this file inside of ~/.config/zathura
+
+# Thinkpad mode
+set recolor-lightcolor "#323234"
+set recolor-darkcolor "#D4D4D6"
+set highlight-active-color "#FB0206"
+set recolor
+
+# dual page
+set page-per-row 2

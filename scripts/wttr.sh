@@ -1,2 +1,8 @@
-curl wttr.in/-31.82,-60.52
-curl http://v2.wttr.in/-31.82,-60.52
+main()
+{
+    local request="wttr.in/${1--31.82,-60.52}"
+    [ "$(tput cols)" -lt 125 ] && request+='?n'
+    curl -H "Accept-Language: ${LANG%_*}" --compressed "$request"
+}
+
+main
