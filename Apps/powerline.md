@@ -1,5 +1,5 @@
 # Instalacion Powerline
-### 191222
+### 200107
 
 ## Powerline desde repositorio
 
@@ -7,15 +7,10 @@ Segui las instrucciones de un tal [tiox](https://ubuntu-mate.community/t/install
 
 Hace una introducci'on que me dio confianza:
 ```
-$ sudo aptitude install powerline
+$ sudo aptitude install powerline powerline-gitstatus
+
 ```
 eso es todo.
-
-Actualizacion: desde Buster conviene instalar Airline para vim y un aditivo
-para las carpetas de la shell con git:
-```
-# aptitude install vim-airline powerline-gitstatus
-```
 
 ### Shell
 
@@ -27,11 +22,6 @@ if [ -f /usr/share/powerline/bindings/bash/powerline.sh ]; then
     source /usr/share/powerline/bindings/bash/powerline.sh
 fi
 ```
-### Personalizacion
-
-En el archivo '/usr/share/powerline/config-files/colorscheme/default.json'
-se pueden cambiar los colores.
-
 ### Personalizacion para mi Thinkpad
 
 No es necesario eliminar los atributos bold, eso desde la configuracion del
@@ -56,11 +46,4 @@ configuraciones de shell
 
 En resumen:
 1. Sobreescribir colors.json y config.json con los archivos de Apps/powerline
-2. Dentro de .../colorschemes/ copiar thinkpad.json
-
-### Actualizacion Buster
-
-Para modificar el usuario hay que copiar el directorio powerline en ~/.config
-```
-$ cp -r /home/leandro/Documents/GNULinux/dotFiles/powerline /home/leandro/.config/
-```
+2. Dentro de .../colorschemes/ copiar thinkpad.json 

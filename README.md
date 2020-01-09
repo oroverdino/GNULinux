@@ -46,6 +46,13 @@
 # systemctl enable home-leandro-mozilla-firefox-<?>.default.mount
 ```
 
+## the /usr merge
+
+Probablemente sea una regla en el futuro. Instalar antes de restaurar.
+```
+# aptitude install usrmerge
+```
+
 ## TLP
 
 Los paquetes a instalar estan detallados en esta pagina:
@@ -75,7 +82,9 @@ Finalmente, calibrarlas:
 
 ## wireless
 
-El firmware es iwlwifi-6000g2a-6.ucode, hay que copiarlo dentro de /lib/firmware y reiniciar.
+El firmware es iwlwifi-6000g2a-6.ucode, hay que copiarlo
+dentro de /lib/firmware y reiniciar.
+
 Probablemente hay que crear la carpeta.
 
 ## bluetooth
@@ -98,9 +107,23 @@ $ sudo aptitude install xserver-xorg-input-evdev
 luego hay que copiar el archivo de configuracion 50-marblemouse.conf dentro
 de /usr/share/X11/xorg.conf.d/
 
-## vim
+## enlaces al directorio ~/.config
 
-Crear un enlace de nombre /etc/vim/vimrc.local que apunte al directorio dotFiles.
+Prolijidad es hacer enlaces del repo al directorio de configuracion
+```
+$ sudo aptitude install ranger highlight zathura
+$ ln -s ../dotFiles/zathura /home/leandro/.config/zathura
+$ ln -s ../dotFiles/ranger /home/leandro/.config/ranger
+$ ln -s ../dotFiles/powerline /home/leandro/.config/powerline
+```
+
+### vim
+
+```
+$ sudo aptitude install vim-airline vim-fugitive
+$ ln -s ../dotFiles/vim/vimrc.local /etc/vim/vimrc.local
+$ sudo cp ../dotFiles/vim/vimX/colors/* /usr/share/local/vim/vim81/colors/
+```
 
 ## bash
 
@@ -132,42 +155,14 @@ Para que el interprete por default sea python3 y no python2
 
 ## Packages
 
-Le lave la cara al history y lo dejo aqui como un recordatorio:
-```
-  vi /etc/apt/sources.list
-  apt update && apt -y full-upgrade
-  
-  apt install -y aptitude arc-theme numix-icon-theme vim
-  aptitude install git rclone
-  vim /etc/bash.bashrc 
-  
-  aptitude install tlp tlp-rdw 
-  aptitude install acpi-call-dkms 
-  tlp-stat -b
-  
-  systemctl enable fstrim.timer 
-  ln -s /home/leandro/Documents/GNULinux/scripts/ccleaner.sh /root/ccleaner.sh
+Los paquetes a instalar son:
+> git
+> rclone
+> steghide
+> numix-{gtk-theme,icon-theme}
+> nmon
+> expect
+> highlight
+> ranger
+> zathura
 
-  vim /etc/sysctl.d/local.conf
-  cp /usr/share/systemd/tmp.mount /etc/systemd/system/
-  systemctl enable tmp.mount 
-
-  aptitude install nmon tree ranger
-  ln -si /usr/bin/python3 /usr/bin/python
-
-  ln -s /home/leandro/Documents/GNULinux/dotFiles/vimrc.local /etc/vim/vimrc.local
-  cp /home/leandro/Documents/GNULinux/Apps/vim/*.vim /usr/share/vim/vim81/colors/
-  aptitude install -y vim-airline
-  aptitude install -y powerline fonts-powerline python3-powerline-gitstatus 
-
-  vim /etc/lightdm/lightdm-gtk-greeter.conf 
-  cp ~leandro/Pictures/wallpaper_thinkpad.png /usr/share/desktop-base/active-theme/grub/thinkpad.png
-  rm /etc/alternatives/desktop-grub
-  ln -s /usr/share/desktop-base/active-theme/grub/thinkpad.png /etc/alternatives/desktop-grub
-
-  export PATH=$PATH:/usr/sbin
-  update-grub 
-
-  export PATH=$PATH:/usr/local/sbin:/usr/bin:/sbin
-  dpkg -i Downloads/google-chrome-stable_current_amd64.deb 
-```
