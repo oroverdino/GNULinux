@@ -2,7 +2,8 @@
 
 # si hay click en la fecha se muestra el calendario
 if [[ "$BLOCK_BUTTON" -eq 1 ]]; then
-    notify-send "`ncal -hb`"
+#    notify-send "`ncal -hb`"
+    zenity --calendar 1>/dev/null
 fi
 
-date '+%m%d %H:%M' 
+date '+%H:%M » %d' 

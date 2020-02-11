@@ -1,0 +1,42 @@
+#!/bin/bash
+
+function main(){
+
+bell="/home/leandro/Documents/GNULinux/scripts/Examples/bell.wav"
+start="$SECONDS"
+s=1
+
+while [ $s -gt 0 ]
+do
+    s="$((time - (SECONDS - start)))"
+    sleep 1
+done
+
+# checamos si existe bell.wav
+if [ -f "$bell" ]
+then
+    # reproducimos la campana y evitamos el texto info
+    aplay "$bell" 2> /dev/null
+    notify-send -u critical "`date '+%H:%M'` « $time segundos"
+else
+    speaker-test
+fi
+exit 0
+}
+
+case $BLOCK_BUTTON in
+    1) #click izq
+        time=`zenity --entry --title="Countdown" --text="Ingrese tiempo en segundos:"`
+        if [ $time -lt 1 ]
+        then
+            zenity --error 1> /dev/null
+        else
+            main
+        fi
+        ;;
+    3) #click der
+        time=900
+        notify-send -u low "15 minutos"
+        main
+        ;;
+esac
