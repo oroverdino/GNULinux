@@ -20,3 +20,7 @@ mkudffs --media-type=hd --blocksize=512 --label=DT106 /dev/sdX
 where:
 > --media-type=hd because we want write an erase data in the usb stick
 > --blocksize=512 because that's the block size of an usb stick
+
+# Update
+
+Install the package and do the rest with gparted.

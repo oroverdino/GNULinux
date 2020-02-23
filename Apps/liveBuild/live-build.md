@@ -18,6 +18,7 @@ set -e
 
 lb config noauto \
     --mode debian \
+    --distribution buster \
     --architectures amd64 \
     --debian-installer false \
     --archive-areas "main contrib non-free" \
@@ -33,44 +34,50 @@ lb config noauto \
 
 The list is a file whith the names of the packages.
 
-For example: config/package-lists/my.list.chroot
+For example:
+
+config/package-lists/lmt.list.chroot
 :-----------------:
 aptitude
 arc-theme
-clonezilla
-curl
+cups
+expect
 git
-gparted
-lshw
-nmap
+highlight
 nmon
 ranger
-rclone
 rsync
 tree
-udftools
 vim
 vim-airline
+vim-fugitive
+vim-gtk
 vlc
 :-----------------:
 
+config/package-lists/siar.list.chroot
+:-----------------:
+clonezilla
+gparted
+lshw
+udftools 
+:-----------------:
+
 config/package-lists/encryption.list.chroot
-```
+:-----------------:
 cryptsetup
-```
+steghide
+:-----------------:
 
 config/package-lists/desktop.list.chroot
-```
+:-----------------:
 live-task-mate
-```
+:-----------------:
 
-The metapackages suggested:
-> task-laptop
-> live-task-standard
-> live-task-recommended
-> task-desktop
-> task-ssh-server
-> task-mate-desktop
-> live-task-base
-> live-task-mate
-
+config/package-lists/network.list.chroot
+:-----------------:
+curl
+nmap
+rclone
+task-ssh-server
+:-----------------:
