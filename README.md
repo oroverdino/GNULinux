@@ -153,16 +153,45 @@ Para que el interprete por default sea python3 y no python2
 * letra: #D4D4D6
 * punto: #FB0206
 
-## Packages
+## Basic packages
 
-Los paquetes a instalar son:
-> git
-> rclone
-> steghide
-> numix-{gtk-theme,icon-theme}
-> nmon
-> expect
-> highlight
-> ranger
-> zathura
+config/package-lists/lmt.list.chroot
+:-----------------:
+aptitude
+arc-theme
+cups
+expect
+git
+highlight
+nmon
+ranger
+rsync
+tree
+vim
+vim-airline
+vim-fugitive
+vim-gtk
+vlc
+:-----------------:
 
+config/package-lists/siar.list.chroot
+:-----------------:
+clonezilla
+gparted
+lshw
+udftools 
+:-----------------:
+
+config/package-lists/encryption.list.chroot
+:-----------------:
+cryptsetup
+steghide
+:-----------------:
+
+config/package-lists/network.list.chroot
+:-----------------:
+curl
+nmap
+rclone
+task-ssh-server
+:-----------------:

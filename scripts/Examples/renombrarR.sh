@@ -5,7 +5,8 @@
 
 # Renombrar archivos por random pero manteniendo una lista correspondiente
 
-for f in *.exclusiones; do
+for f in *.exclusiones
+do
     rname=$RANDOM
     echo "$f: $rname" >> lista
     mv "$f" "$rname"
