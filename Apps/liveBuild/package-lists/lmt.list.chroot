@@ -1,10 +1,14 @@
 aptitude
 arc-theme
+bash-completion
 cups
 expect
 git
+grub2-common
 highlight
+mate-tweak
 nmon
+numix-icon-theme
 ranger
 rsync
 tree
