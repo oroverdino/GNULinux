@@ -1,0 +1,17 @@
+# Instrucciones para instalar los mismos pqts que estan en un
+# Debian en otra instalacion fresca
+
+https://trisquel.info/en/wiki/cloning-system-or-how-make-copy-installed-packages-one-computer-another
+
+## Instrucciones
+
+Desde el synaptic se puede hacer una lista con los paquetes
+que estan instalados, y esa lista (que es un archivo de
+texto plano) se levanta en otro sistema nuevo.
+
+Desde la PC origen se pueden copiar los .deb que estan en la
+carpeta /var/cache/apt/ hasta la destino (con rsync por ej).
+
+# Aqui hay una guia para clonar el sistema completo.
+
+http://positon.org/clone-a-linux-system-install-to-another-computer

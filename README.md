@@ -180,6 +180,7 @@ clonezilla
 gparted
 lshw
 udftools 
+chntpw
 :-----------------:
 
 config/package-lists/encryption.list.chroot

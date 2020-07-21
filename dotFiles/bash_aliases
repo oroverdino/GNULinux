@@ -22,6 +22,7 @@ alias gnulinux='/home/leandro/Documents/GNULinux/scripts/gnulinux.sh'
 alias gugler='/home/leandro/Documents/GNULinux/scripts/gugler.sh'
 alias rata='/home/leandro/Documents/GNULinux/scripts/rata.sh'
 alias tuped='/home/leandro/Documents/GNULinux/scripts/tuped.sh'
+alias sadio='/home/leandro/Documents/GNULinux/scripts/sadio.sh'
 
 # rsync Linode
 #alias linode='/home/leandro/Documents/Gugler/PHP/syncLinode.sh'
