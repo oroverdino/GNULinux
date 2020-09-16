@@ -5,6 +5,7 @@
 " para habilitar chiches
 set nocompatible
 set t_Co=256
+"set termguicolors
 
 " basico
 set number ruler hlsearch
@@ -61,5 +62,5 @@ set cursorline
 " install vim-fugitive for git expand
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
-"let g:airline_theme = 'base16_monokai'
-let g:airline_theme = 'angr'
+let g:airline_theme = 'base16_monokai'
+"let g:airline_theme = 'angr'
