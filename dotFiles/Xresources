@@ -42,7 +42,7 @@
 *.color15:      #f9f9f9
 
 !! URxvt Appearance
-URxvt.font: xft:Inconsolata for Powerline:pixelsize=14
+URxvt.font: xft:Inconsolata\ for\ Powerline:pixelsize=14
 URxvt.boldFont: 
 URxvt.italicFont: 
 URxvt.boldItalicfont: 
@@ -62,10 +62,8 @@ URxvt.iso14755: false
 URxvt.background: [90]#323234 
 URxvt.foreground: [100]#d2d2d4
 
-
 !! URxvt extensions
 URxvt.perl-ext-common: clipboard-osc
-!URxvt.background.expr: scale keep { load "/home/leandro/Pictures/god.png" }
 
 XTerm*termName:           xterm-256color
 ! disable bold font faces, instead make text light blue.
@@ -81,7 +79,7 @@ XTerm.vt100.colorIT: rgb:82/a4/d3
 XTerm*VT100.geometry:     85x25
 XTerm*renderFont:         true
 XTerm*allowBoldFonts:     false
-XTerm*faceName:           Inconsolata for Powerline
+XTerm*faceName:           Inconsolata\ for\ Powerline
 XTerm*faceSize:           12
 
 XTerm*geometry:           132x24
@@ -117,7 +115,7 @@ UXTerm.vt100.colorIT: rgb:82/a4/d3
 UXTerm*VT100.geometry:    90x30
 UXTerm*renderFont:        true
 UXTerm*allowBoldFonts:    false
-UXTerm*faceName:          Inconsolata for Powerline
+UXTerm*faceName:          Inconsolata\ for\ Powerline
 UXTerm*faceSize:          12
 UXTerm*dynamicColors:     true
 UXTerm*utf8:              2
@@ -131,3 +129,5 @@ UXTerm*jumpScroll:        true
 UXTerm*multiScroll:       true
 UXTerm*toolBar:           false
 UXTerm*selectToClipboard: true
+
+Xft.rgba: rgb
