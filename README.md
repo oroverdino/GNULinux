@@ -115,6 +115,7 @@ $ sudo aptitude install ranger highlight zathura
 $ ln -s ../dotFiles/zathura /home/leandro/.config/zathura
 $ ln -s ../dotFiles/ranger /home/leandro/.config/ranger
 $ ln -s ../dotFiles/powerline /home/leandro/.config/powerline
+$ ln -s ../dotFiles/vifmrc /home/leandro/.config/vifm/vifmrc
 ```
 
 ### vim
@@ -167,6 +168,7 @@ nmon
 ranger
 rsync
 tree
+vifm
 vim
 vim-airline
 vim-fugitive
