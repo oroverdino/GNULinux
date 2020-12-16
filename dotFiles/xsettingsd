@@ -1,0 +1,9 @@
+Net/CursorThemeName "default"
+Net/FontName "Sans 10"
+Net/IconThemeName "Numix"
+Net/ToolbarStyle "icons"
+Net/ThemeName "Numix"
+Net/ButtonImages 1
+Xft/Antialias 1
+Xft/Hinting 0
+Xft/RGBA "none"

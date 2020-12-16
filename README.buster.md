@@ -1,7 +1,7 @@
 # GNULinux
 
-# Notas Debian Bullseye en mi Thinkpad T430
-### 201215
+# Notas Debian Buster en mi Thinkpad T430
+### 200107
 
 ## SSD
 
@@ -12,9 +12,9 @@
 
 3. la swap no debe superar los 512MB
 
-4. bajar la swappiness a 10 (0 es muy agresiva):
+4. bajar la swappiness a 1 (0 es muy agresiva):
 ```
-# sysctl vm.swappiness=10
+# echo "vm.swappiness=1" > /etc/sysctl.d/local.conf
 ```
 
 5. montar el directorio /tmp en la RAM:
@@ -23,87 +23,12 @@
 # systemctl enable tmp.mount
 ```
 
-<!---
 6. habilitar el servicio fstrim automatico:
 ```
 # systemctl enable fstrim.timer
 ```
--->
-## Paquetes de sistema
 
-6. durante el primer inicio
-
-```
-# apt install aptitude intel-microcode firmware-linux firmware-linux-nonfree
-```
-
-7. the /usr merge
-
-```
-# aptitude install usrmerge
-```
-
-8. TLP
-
-Los paquetes a instalar estan detallados en esta pagina:
-[TLP](http://linrunner.de/en/tlp/docs/tlp-linux-advanced-power-management.html) 
-Es muy importante habilitar el control lo antes posible.
-```
-# aptitude install tlp tlp-rdw acpi-call-dkms 
-```
-
-La configuracion de los limites de carga se colocan en: /etc/tlp.d/01-t430.conf
-
-Finalmente, calibrarlas:
-```
-# /usr/sbin/tlp recalibrate BAT0
-```
-
-9. wireless and bluetooth
-
-El firmware iwlwifi-6000g2a-6.ucode y la carpeta brcm  hay que copiarlo
-dentro de /lib/firmware y reiniciar.
-
-De todos modos es buena politica quitar el servicio al inicio
-```
-$ sudo systemctl disable bluetooth.service
-$ sudo systemctl mask bluetooth.target
-```
-
-## i3wm
-
-10. solo vamos a usar i3wm
-```
-# aptitude install i3 lightdm network-manager-gnome x11-xserver-utils
-    pulseaudio pavucontrol rofi i3blocks libnotify-bin zenity flameshot
-```
-
-11. para teclado dvorak y latam copiar el archivo *keyboard* en /etc/default/
-
-12. para crear la estructura de directorios tipica del home
-```
-$ sudo aptitude xdg-user-dirs caja
-```
-
-13. Numix
-```
-# sudo aptitude install numix-gtk-theme numix-icon-theme xsettingsd
-    gir1.2-gtk2.0 libglib2.0-dev gir1.2-gtk-3.0
-```
-
-luego copiamos el archivo _xsettingsd_ como ~/.xsettingsd; y chequeamos
-que xsettingsd este en ~/.config/i3/config
-
-14. backlight, son dos lineas en el config de i3
-```
-$ sudo aptitude install xbacklight
-```
-
-todo: verificar compton y compton.conf
-
-## Google Chrome
-
-15. montar la cache de Google Chrome en la RAM (luego de instalar el chrome
+7. montar la cache de Google Chrome en la RAM (luego de instalar el chrome
     desde el repositorio de google, obvio; atenci'on al nombre de la unit,
     como debe corresponderse con la ruta es necesario 'escapar' el guion del
     nombre, de ah'i [...]-google\x2dchrome-[...]):
@@ -113,15 +38,64 @@ todo: verificar compton y compton.conf
 # systemctl enable home-leandro-.cache-google\x2dchrome-Default-Cache.mount 
 ```
 
-<!---
-16. montar la cache de Firefox en la RAM (el nombre del directorio se asigna
+8. montar la cache de Firefox en la RAM (el nombre del directorio se asigna
     aleatoriamente durante la instalacion, por eso <?>):
 ```
 # cp ~leandro/GNULinux/dotFiles/home-leandro-mozilla-firefox-<?>.default.mount
     /etc/systemd/system/
 # systemctl enable home-leandro-mozilla-firefox-<?>.default.mount
 ```
--->
+
+## the /usr merge
+
+Probablemente sea una regla en el futuro. Instalar antes de restaurar.
+```
+# aptitude install usrmerge
+```
+
+## TLP
+
+Los paquetes a instalar estan detallados en esta pagina:
+[TLP](http://linrunner.de/en/tlp/docs/tlp-linux-advanced-power-management.html) 
+Es muy importante habilitar el control lo antes posible.
+```
+# aptitude install tlp tlp-rdw acpi-call-dkms 
+```
+
+Luego editar los limites de carga en /etc/default/tlp
+```
+# Battery charge thresholds (ThinkPad only, tp-smapi or acpi-call kernel module
+# required). Charging starts when the remaining capacity falls below the
+# START_CHARGE_THRESH value and stops when exceeding the STOP_CHARGE_THRESH value.
+# Main / Internal battery (values in %)
+START_CHARGE_THRESH_BAT0=45
+STOP_CHARGE_THRESH_BAT0=60
+# Ultrabay / Slice / Replaceable battery (values in %)
+START_CHARGE_THRESH_BAT1=45
+STOP_CHARGE_THRESH_BAT1=60
+```
+
+Finalmente, calibrarlas:
+```
+# /usr/sbin/tlp recalibrate BAT0
+```
+
+## wireless
+
+El firmware es iwlwifi-6000g2a-6.ucode, hay que copiarlo
+dentro de /lib/firmware y reiniciar.
+
+Probablemente hay que crear la carpeta.
+
+## bluetooth
+
+Lo mismo pasa con el bluetooth. Hay que copiar la carpeta brcm en /lib/firmware.
+
+De todos modos es buena politica quitar el servicio al inicio
+```
+$ sudo systemctl disable bluetooth.service
+$ sudo systemctl mask bluetooth.target
+```
 
 ## Logitech Marble Mouse
 
