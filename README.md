@@ -76,6 +76,7 @@ $ sudo systemctl mask bluetooth.target
 ```
 # aptitude install i3 lightdm network-manager-gnome x11-xserver-utils
     pulseaudio pavucontrol rofi i3blocks libnotify-bin zenity flameshot
+    xss-lock
 ```
 
 11. para teclado dvorak y latam copiar el archivo *keyboard* en /etc/default/
