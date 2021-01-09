@@ -4,6 +4,9 @@ alias ll='ls -alh'
 alias t2='tree -L 2 -sh'
 alias suspend='systemctl suspend'
 
+# vim
+alias v='vim'
+
 # transparency
 alias transparency='/home/leandro/Documents/GNULinux/scripts/transparency.sh'
 

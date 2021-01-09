@@ -1,0 +1,13 @@
+#!/bin/bash
+
+LAYOUT=$(xset -q | grep LED | awk '{ print $10 }')
+
+if [ ${LAYOUT%?} -gt 0 ]
+then
+    echo "es"
+else
+    echo "en"
+fi
+
+exit 0
+

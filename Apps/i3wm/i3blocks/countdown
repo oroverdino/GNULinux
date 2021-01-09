@@ -17,7 +17,7 @@ if [ -f "$bell" ]
 then
     # reproducimos la campana y evitamos el texto info
     aplay "$bell" 2> /dev/null
-    notify-send -u critical "`date '+%H:%M'` « $time segundos"
+    notify-send -u critical "`date '+%H:%M'` « $minutos minutos"
 else
     speaker-test
 fi
@@ -26,11 +26,13 @@ exit 0
 
 case $BLOCK_BUTTON in
     1) #click izq
-        time=`zenity --entry --title="Countdown" --text="Ingrese tiempo en segundos:"`
+        minutos=`zenity --entry --title="Countdown" --text="Minutos:"`
+        time=$( expr 60 '*' $minutos )
         if [ $time -lt 1 ]
         then
             zenity --error 1> /dev/null
-        else
+        elif [ "$?" -eq "1" ]
+        then
             main
         fi
         ;;
@@ -40,3 +42,4 @@ case $BLOCK_BUTTON in
         main
         ;;
 esac
+

@@ -6,4 +6,4 @@ if [[ "$BLOCK_BUTTON" -eq 1 ]]; then
     zenity --calendar 1>/dev/null
 fi
 
-date '+%H:%M » %d' 
+date '+%H:%M   %d' 

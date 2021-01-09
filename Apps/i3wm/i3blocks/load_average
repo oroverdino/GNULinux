@@ -14,14 +14,15 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-load="$(cut -d ' ' -f1 /proc/loadavg)"
+load1="$(cut -d ' ' -f1 /proc/loadavg)"
+load2="$(cut -d ' ' -f2 /proc/loadavg)"
 cpus="$(nproc)"
 
 # full text
-echo "$load"
+echo "$load1 : $load2"
 
 # short text
-echo "$load"
+echo "$load1 : $load2"
 
 # color if load is too high
 awk -v cpus=$cpus -v cpuload=$load '
