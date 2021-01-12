@@ -4,16 +4,15 @@
 
 " para habilitar chiches
 set nocompatible
-"set t_Co=256
+set t_Co=256
 "set termguicolors
 
 " basico
 set number ruler hlsearch
-set statusline=statusline=%<%f\ %h%m%r%{kite#statusline()}%=%-14.(%l,%c%V%)\ %P
 set laststatus=2
 set showtabline=2
 "set noshowmode
-set relativenumber
+"set relativenumber
 
 " remapeamos algunas cosas
 noremap <F12> :update<CR>
@@ -32,11 +31,6 @@ set scrolloff=5
 filetype plugin on
 filetype plugin indent on
 syntax on
-colorscheme solarized8_flat
-"colorscheme kuroi
-"colorscheme thinkpad
-"colorscheme molokai
-"colorscheme sublimemonokai
 set background=dark
 
 " show existing tab with 4 spaces width
@@ -54,6 +48,8 @@ set showcmd
 " Powerline
 "set rtp+=/usr/local/lib/python3.5/dist-packages/powerline/bindings/vim/
 
+colorscheme solarized
+
 " Color column
 set cc=79
 
@@ -64,7 +60,6 @@ set cursorline
 " install vim-fugitive for git expand
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
-let g:airline_solarized_bg='dark'
 let g:airline_theme = 'solarized'
 "let g:airline_theme = 'base16_monokai'
 "let g:airline_theme = 'angr'

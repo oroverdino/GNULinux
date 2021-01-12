@@ -1,9 +1,0 @@
-[Unit]
-Description=Load the resources on the start
-
-[Service]
-Type=oneshot
-ExecStart=/home/leandro/Documents/GNULinux/scripts/load_resources.sh
-
-[Install]
-WantedBy=multi-user.target

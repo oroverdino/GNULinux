@@ -233,6 +233,8 @@ fileviewer *.[1-8] man ./%c | col -b
 
 " Images
 filextype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
+        \ {View in feh}
+        \ feh -Z,
         \ {View in eom}
         \ eom %c,
         \ {View in sxiv}

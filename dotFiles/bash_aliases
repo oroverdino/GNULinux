@@ -45,3 +45,4 @@ alias git_graph='git log --all --decorate --oneline --graph'
 
 # countdown
 alias countdown='/home/leandro/Documents/GNULinux/scripts/Examples/countDown.sh'
+

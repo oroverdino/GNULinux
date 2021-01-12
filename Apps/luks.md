@@ -9,7 +9,6 @@ $ sudo aptitude install cryptsetup
 ## Procedimiento
 Supongamos que queremos encriptar una unidad /dev/sdb1, la variable carry es
 efimera; el label de la particion es rohs. Entonces:
-
 ```
 # crpytsetup --verify-passphrase luksFormat /dev/sdb1
 # crpytsetup open /dev/sdxi carry
@@ -19,3 +18,19 @@ efimera; el label de la particion es rohs. Entonces:
 # umount /mnt
 # crpytsetup close carry
 ```
+
+## Montar
+```
+# crpytsetup open /dev/sdxi carry
+# mount /dev/mapper/carry /mnt
+...
+# umount /mnt
+# crpytsetup close carry
+```
+
+## Agregar una passphrase
+Luego de crear la unidad encriptada, desmontada, hacemos:
+```
+# cryptsetup luksAddKey /dev/sdb1
+```
+

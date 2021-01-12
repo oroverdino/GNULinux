@@ -76,7 +76,7 @@ $ sudo systemctl mask bluetooth.target
 ```
 # aptitude install i3 lightdm network-manager-gnome x11-xserver-utils
     pulseaudio pavucontrol rofi i3blocks libnotify-bin zenity flameshot
-    xss-lock
+    xss-lock compton xournal
 ```
 
 11. para teclado dvorak y latam copiar el archivo *keyboard* en /etc/default/
@@ -113,6 +113,8 @@ todo: verificar compton y compton.conf
     /etc/systemd/system/
 # systemctl enable home-leandro-.cache-google\x2dchrome-Default-Cache.mount 
 ```
+
+16. compton es necesario para evitar el tear screen; copiar compton.conf dentro de ~/.config/.
 
 <!---
 16. montar la cache de Firefox en la RAM (el nombre del directorio se asigna
@@ -186,7 +188,6 @@ Para que el interprete por default sea python3 y no python2
 config/package-lists/lmt.list.chroot
 :-----------------:
 aptitude
-arc-theme
 cups
 expect
 git
