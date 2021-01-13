@@ -15,3 +15,67 @@ carpeta /var/cache/apt/ hasta la destino (con rsync por ej).
 # Aqui hay una guia para clonar el sistema completo.
 
 http://positon.org/clone-a-linux-system-install-to-another-computer
+
+==============================================================================
+
+1. Preparation
+2. Transfer to usb
+3. Switch to target PC
+4. Transfer to target PC
+5. Update fstab
+6. Reinstall grub
+7. Reboot
+
+1. *preparation*
+
+Mount the USB with a big <ext4> partition on |source_PC|
+`# mount /dev/sdbX /mnt/usb`
+
+2. *transfer*
+
+For each partition:
+`# rsync -avHX /mnt/slash/ /mnt/usb/slash/`
+
+3. *switch_to_target*
+
+Unmount, unplug an remount the USB stick on the |target_PC|
+
+4. *transfer*
+
+For each partition:
+`# rsync -avHX /mnt/usb/slash/ /mnt/slash/`
+
+5. *fstab*
+
+As 'root' edit |/mnt/slash/etc/fstab| with according <UUID>. 
+
+`# ls -l /dev/disk/by-uuid/`
+`# blkid /dev/sdaX`
+
+6. *grub*
+
+We will use a 'chroot' to be able to call the 'grub' install
+inside the migrated system.
+
+---------------------------------------------------
+#!/usr/bin/bash
+
+list='proc sys dev run'
+
+for dir in $list
+do
+    mount --bind /$dir /mnt/slash/$dir
+done
+
+chroot /mnt/slash
+grub-install /dev/sda
+update-grub
+update-initramfs
+---------------------------------------------------
+
+7. *reboot*
+
+Listo
+
+vim:ft=help
+
