@@ -141,10 +141,10 @@ de /usr/share/X11/xorg.conf.d/
 Prolijidad es hacer enlaces del repo al directorio de configuracion
 ```
 $ sudo aptitude install ranger highlight zathura
-$ ln -s ../dotFiles/zathura /home/leandro/.config/zathura
-$ ln -s ../dotFiles/ranger /home/leandro/.config/ranger
-$ ln -s ../dotFiles/powerline /home/leandro/.config/powerline
-$ ln -s ../dotFiles/vifmrc /home/leandro/.config/vifm/vifmrc
+$ ln -s ../dotFiles/config/zathura /home/leandro/.config/zathura
+$ ln -s ../dotFiles/config/ranger /home/leandro/.config/ranger
+$ ln -s ../dotFiles/config/powerline /home/leandro/.config/powerline
+$ ln -s ../dotFiles/vifmrc /home/leandro/vifm/vifmrc
 ```
 
 ### vim
@@ -177,12 +177,6 @@ Para que el interprete por default sea python3 y no python2
 # ln -si python3 python
 ```
 
-## Colores del logo ThinkPad
-
-* fondo: #323234
-* letra: #D4D4D6
-* punto: #FB0206
-
 ## Basic packages
 
 config/package-lists/lmt.list.chroot
@@ -192,7 +186,9 @@ cups
 expect
 git
 highlight
+jmtpfs
 nmon
+pv
 ranger
 rsync
 tree
@@ -201,12 +197,17 @@ vim
 vim-airline
 vim-fugitive
 vim-gtk
+:-----------------:
+
+config/package-lists/multimedia.list.chroot
+:-----------------:
 vlc
+ffmpeg
+screenkey
 :-----------------:
 
 config/package-lists/siar.list.chroot
 :-----------------:
-clonezilla
 gparted
 lshw
 udftools 

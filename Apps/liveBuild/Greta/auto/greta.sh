@@ -13,5 +13,5 @@ lb config noauto \
     --apt aptitude \
     --apt-indices false \
     --memtest none \
-    --bootappend-live "boot=live components keyboard-layouts=us keyboard-variants=dvorak persistence persistence-encryption=luks"
+    --bootappend-live "boot=live components keyboard-layouts=us,latam keyboard-variants=dvorak,deadtilde persistence persistence-encryption=luks"
     "${@}"

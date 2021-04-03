@@ -9,4 +9,4 @@
 #
 # january 2020
 
-rsync -avhX --delete --info=stats2,progress2 --exclude-from=/root/exclusiones / $1
+rsync -avHX --delete --info=stats2,progress2 --exclude-from=/root/exclusiones / $1
