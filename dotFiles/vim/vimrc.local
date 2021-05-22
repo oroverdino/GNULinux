@@ -48,7 +48,8 @@ set showcmd
 " Powerline
 "set rtp+=/usr/local/lib/python3.5/dist-packages/powerline/bindings/vim/
 
-colorscheme solarized
+"colorscheme solarized
+colorscheme ghdark
 
 " Color column
 set cc=79
