@@ -19,6 +19,7 @@ noremap <F12> :update<CR>
 inoremap <F12> <ESC>:update<CR>
 noremap <S-F12> :wq<CR>
 inoremap <S-F12> <ESC>:wq<CR>
+noremap ,<space> :nohlsearch<CR>
 
 " copy/paste from/to clipboard
 " you must install vim-gtk

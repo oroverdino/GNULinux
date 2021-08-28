@@ -26,7 +26,7 @@
 
 # TUI:
 al
-q0
+q1
 v2
 ov
 m-1
@@ -34,408 +34,309 @@ l10,2
 r10,2
 
 # Left window history (oldest to newest):
-d/home/leandro/oneDrive/HOME
-	Pictures
-3
-d/home/leandro/oneDrive/HOME/Pictures
+d/home/leandro/Documents/Win7/PCI-8738-091211-7.12.8.1740(W7-RC-01)
 	..
 0
-d/home/leandro/oneDrive/HOME
-	Documents
-1
-d/home/leandro/Drive
-	Lumia
-4
-d/home/leandro/Drive/Lumia
+d/home/leandro/Documents/Win7
 	..
 0
-d/home/leandro/Drive
-	Lumia
-4
-d/home/leandro/Drive/Lumia
-	IMG-20180913-WA0001.jpg
-1
-d/home/leandro/Drive
-	Documents
-1
-d/home/leandro/Drive/Documents
-	pgfmanual-en-library-mindmaps.tex
-15
-d/home/leandro/Drive
-	Documents
-1
-d/home/leandro
-	Drive
-4
-d/home/leandro/Drive
-	Documents
-1
 d/home/leandro
 	Documents
-2
-d/home/leandro/Documents
-	..
-0
-d/home/leandro/Drive/Documents
-	ratRace
-12
-d/home/leandro/Drive
-	..
-0
-d/tmp
-	210512233909.png
-7
-d/
-	tmp
-19
-d/tmp
-	210512233909.png
-7
-d/home/leandro
-	.vifm
-15
-d/home/leandro/.vifm
-	colors
-1
-d/home/leandro/.vifm/colors
-	..
-0
-d/home/leandro/.vifm
-	vifmrc
-5
-d/etc
-	..
-0
-d/usr/share/vifm
-	colors
-1
-d/usr/share
-	vifm
-37
-d/home/leandro/Documents/TUPED/PyE
-	..
-0
-d/home/leandro
-	Eventuales
-5
-d/home/leandro/Eventuales
-	flota.sh
-3
-d/home/leandro
-	Eventuales
-5
-d/home/leandro/Eventuales
-	flota.sh
-3
-d/home/leandro
-	Eventuales
-5
-d/home/leandro/Eventuales
-	..
-0
-d/home/leandro
-	.config
-3
-d/home/leandro/.config
-	vifm_1
-23
-d/home/leandro/.config/vifm_1
-	.vifm_2
-1
-d/home/leandro/.config/vifm_1/.vifm_2
-	..
-0
-d/home/leandro/.config/vifm_1
-	vifminfo
-5
-d/home/leandro/.config
-	compton.conf
-26
-d/mnt
-	Facultad Bel
-18
-d/mnt/Facultad Bel
-	Clase 8 (6 de marzo)
-1
-d/mnt/Facultad Bel/Clase 8 (6 de marzo)
-	..
-0
-d/mnt/Facultad Bel
-	Clase 8 (6 de marzo)
-1
-d/mnt
-	piano
-1
-d/mnt/piano
-	Learn & Master Piano - 02 - Session 1; Workshop.avi
-14
-d/mnt
-	piano
-1
-d/mnt/piano
-	Play Along CD 1
-1
-d/mnt/piano/Play Along CD 1
-	Learn & Master Piano - 02 - Track 2.mp3
-7
-d/mnt/piano
-	Play Along CD 1
-1
-d/mnt
-	CURSO DE INGRESO TECNIUCATURA 2015
-3
-d/mnt/CURSO DE INGRESO TECNIUCATURA 2015
-	información
-1
-d/mnt/CURSO DE INGRESO TECNIUCATURA 2015/información
-	..
-0
-d/mnt/CURSO DE INGRESO TECNIUCATURA 2015
-	semana 1
-2
-d/mnt/CURSO DE INGRESO TECNIUCATURA 2015/semana 1
-	1- Teoria 1.1Conjuntos Numéricos.pdf
-1
-d/mnt/CURSO DE INGRESO TECNIUCATURA 2015
-	semana 1
-2
-d/mnt
-	.Trash-1001
-16
-d/mnt/.Trash-1001
-	files
-1
-d/mnt/.Trash-1001/files
-	..
-0
-d/mnt/.Trash-1001
-	info
-2
-d/mnt/.Trash-1001/info
-	..
-0
-d/mnt/.Trash-1001
-	info
-2
-d/mnt
-	Mate Curso de ingreso 2018
-17
-d/mnt/Mate Curso de ingreso 2018
-	Clase 1
-1
-d/mnt/Mate Curso de ingreso 2018/Clase 1
-	1- Teoria 1.1Conjuntos Numéricos.pdf
-1
-d/mnt/Mate Curso de ingreso 2018
-	Clase 1
-1
-d/mnt
-	Facultad Bel
-18
-d/mnt/Facultad Bel
-	Clase 8 (6 de marzo)
-1
-d/mnt
-	Recibo (6).pdf
-38
-d/
-	mnt
 13
-d/home/leandro
-	Documents
-15
-d/home/leandro/Documents
-	TUPED
-7
-d/home/leandro/Documents/TUPED
-	Algoritmos
-5
-d/home/leandro/Documents/TUPED/Algoritmos
-	equivalencias.md
-2
-d/home/leandro
-	Documents
-15
 d/home/leandro/Documents
 	Barrio
-12
-d/home/leandro/Documents/Barrio
-	Notas
-2
-d/home/leandro/Documents/Barrio/Notas
-	Arnet
-1
-d/home/leandro/Documents/Barrio/Notas/Arnet
-	Pantallazo-2016-07-21 09-59-05.png
-1
-d/home/leandro
-	Downloads
 11
-d/home/leandro/Downloads
-	babies.jpeg
-1
-d/home/leandro
-	Eventuales
-10
-d/home/leandro/Eventuales
-	..
-0
-d/home/leandro
-	Documents
-9
-d/home/leandro/Documents
-	Barrio
-12
-d/home/leandro
-	Music
-8
-d/home/leandro/Music
-	..
-0
-d/home/leandro
-	Drive
-3
-d/home/leandro/Drive
-	..
-0
-d/home/leandro
-	oneDrive
-4
-d/home/leandro/oneDrive
-	..
-0
-d/home/leandro
-	Pictures
-13
-d/home/leandro/Pictures
-	20200423_235143.jpg
-8
-d/home/leandro
-	Documents
-8
-d/home/leandro/Documents
-	Barrio
-12
-d/home/leandro/Documents/Barrio
-	Notas
-2
-d/home/leandro/Documents/Barrio/Notas
-	Arnet
-1
-d/home/leandro/Documents/Barrio/Notas/Arnet
-	Arnet.txt
-6
-d/home/leandro/Documents/Barrio/Notas
-	Routers.txt
-3
 d/home/leandro/Documents/Barrio
 	Backups
 1
 d/home/leandro/Documents/Barrio/Backups
-	MikroTik-HAP_190310.backup
+	MikroTik-HAP_190526.backup
+12
+d/home/leandro/Documents/Barrio
+	Backups
+1
+d/home/leandro/Documents
+	Barrio
 11
+d/home/leandro
+	Documents
+13
+d/home/leandro/Documents
+	TUPED
+6
+d/home/leandro/Documents/TUPED
+	Algoritmos
+7
+d/home/leandro/Documents/TUPED/Algoritmos
+	TORRES_Dict Equiv AyED-Insfran.pdf
+1
+d/home/leandro/Documents/TUPED
+	Algoritmos
+7
+d/home/leandro/Documents/TUPED/Algoritmos
+	equivalencias.md
+2
+d/tmp
+	dream.jpeg
+14
+d/home/leandro
+	PycharmProjects
+5
+d/home/leandro/PycharmProjects
+	algoritmos
+1
+d/home/leandro/PycharmProjects/algoritmos
+	venv
+1
+d/home/leandro/PycharmProjects/algoritmos/venv
+	nodo.py
+9
+d/home/leandro/PycharmProjects/algoritmos
+	venv
+1
+d/home/leandro/PycharmProjects
+	algoritmos
+1
+d/home/leandro/PycharmProjects/algoritmos
+	venv
+1
+d/home/leandro/PycharmProjects
+	tuped_pye
+2
+d/home/leandro/PycharmProjects/tuped_pye
+	pnm.png
+1
+d/home/leandro/PycharmProjects
+	PyE
+3
+d/home/leandro/PycharmProjects/PyE
+	..
+0
+d/home/leandro/PycharmProjects
+	PyE
+3
+d/home/leandro
+	PycharmProjects
+13
+d/home
+	leandro
+1
+d/home/leandro
+	Documents
+12
+d/home/leandro/Documents
+	Barrio
+11
+d/home/leandro/Documents/Barrio
+	Notas
+2
+d/home/leandro/Documents/Barrio/Notas
+	Arnet
+1
+d/home/leandro/Documents/Barrio/Notas/Arnet
+	arnetAntonio.txt
+5
+d/tmp
+	recup_dir.1
+5
+d/tmp/recup_dir.1
+	f0055832.jpg
+25
+d/tmp
+	recup_dir.1
+5
+d/tmp/recup_dir.1
+	f0005888.rar
+24
+d/tmp
+	gatite.jpeg
+8
+d/home/leandro
+	sdb1JwP
+6
+d/home/leandro/sdb1JwP
+	BACKUPS
+3
+d/home/leandro/sdb1JwP/BACKUPS
+	..
+0
+d/home/leandro/sdb1JwP
+	BACKUPS
+3
+d/home/leandro
+	sdb2I78
+7
+d/home/leandro/sdb2I78
+	SOFTWARE
+1
+d/home/leandro/sdb2I78/SOFTWARE
+	..
+0
+d/home/leandro/sdb2I78
+	SOFTWARE
+1
+d/home/leandro
+	sdb4Jdt
+8
+d/home/leandro/sdb4Jdt
+	lost+found
+1
+d/home/leandro
+	sdb1JwP
+6
+d/home/leandro/sdb1JwP
+	..
+0
+d/home/leandro
+	sdb2I78
+7
+d/home/leandro/sdb2I78
+	..
+0
+d/home/leandro
+	sdb4Jdt
+8
+d/home/leandro/sdb4Jdt
+	..
+0
+d/home/leandro
+	sdb1JwP
+6
+d/home/leandro/sdb1JwP
+	..
+0
+d/home/leandro
+	sdb1JwP
+14
+d/tmp
+	TP7_listaDeAdyacencia.png
+22
+d/home/leandro
+	Documents
+12
+d/home/leandro/Documents
+	practicalVim
+9
+d/home/leandro/Documents/practicalVim
+	..
+0
+d/home/leandro/Documents
+	practicalVim
+9
+d/home/leandro
+	PycharmProjects
+16
+d/home/leandro/PycharmProjects
+	tp6
+7
+d/home/leandro/PycharmProjects/tp6
+	pqt_bt.py
+2
+d/home/leandro/PycharmProjects
+	tp6
+7
+d/home/leandro
+	Documents
+12
+d/home/leandro/Documents
+	TUPED
+6
+d/home/leandro/Documents/TUPED
+	Algoritmos
+7
+d/home/leandro/Documents/TUPED/Algoritmos
+	Guía de TP 7_ Unidad 5 - leandroTorres.pdf
+15
+d/tmp
+	plato.jpeg
+10
+d/
+	tmp
+13
+d/home/leandro
+	Documents
+12
+d/home/leandro/Documents
+	GNULinux
+13
+d/home/leandro/Documents/GNULinux
+	scripts
+5
+d/home/leandro/Documents/GNULinux/scripts
+	Examples
+4
+d/home/leandro/Documents/GNULinux/scripts/Examples
+	..
+0
+d/home/leandro/Documents/GNULinux/scripts
+	Examples
+4
+d/home/leandro/Documents/GNULinux
+	scripts
+5
+d/home/leandro/Documents/GNULinux/scripts
+	Examples
+4
+d/home/leandro/Documents/GNULinux/scripts/Examples
+	..
+0
+d/home/leandro/Documents/GNULinux/scripts
+	Examples
+4
+d/home/leandro/Documents/GNULinux/scripts/Examples
+	ssh_tar.md
+7
+d/home/leandro/Documents/GNULinux/scripts
+	bashTutor
+2
+d/home/leandro/Documents/GNULinux/scripts/bashTutor
+	hi.sh
+3
+d/home/leandro/Documents/GNULinux/scripts
+	Oldies
+1
+d/home/leandro/Documents/GNULinux
+	Apps
+4
+d/home/leandro/Documents/GNULinux/Apps
+	..
+0
+d/home/leandro/Documents/GNULinux
+	dotFiles
+2
+d/home/leandro/Documents/GNULinux/dotFiles
+	fonts
+1
+d/home/leandro/Documents/GNULinux
+	rpi
+1
+d/home/leandro/Documents/GNULinux/rpi
+	..
+0
+d/home/leandro/Documents/GNULinux
+	scripts
+5
+d/home/leandro/Documents/GNULinux/scripts
+	Oldies
+1
+d/home/leandro/Documents/GNULinux/scripts/Oldies
+	organizar.sh
+1
+d/home/leandro/Documents/GNULinux/scripts
+	bashTutor
+2
+d/home/leandro/Documents/GNULinux/scripts/bashTutor
+	hello.sh
+2
+d/home/leandro/Documents/GNULinux/scripts
+	rata.sh
+6
+d/home/leandro/Documents/GNULinux
+	README.md
+7
 d
 
 # Right window history (oldest to newest):
-D/home/leandro/Drive/Documents/GNULinux
-	dotFiles
-3
-D/home/leandro/Drive/Documents/GNULinux/dotFiles
-	..
-0
-D/home/leandro/Drive
-	..
-0
-D/home/leandro
-	Drive
-4
-D/home/leandro/Drive
-	..
-0
-D/home/leandro
-	Pictures
-6
-D/home/leandro/Pictures
-	Webcam
-6
-D/home/leandro/Pictures/Webcam
-	..
-0
-D/home/leandro/Pictures
-	Sillas
-5
-D/home/leandro/Pictures/Sillas
-	..
-0
-D/home/leandro/Pictures
-	Mandalas
-4
-D/home/leandro/Pictures/Mandalas
-	mandala_r01.jpg
-2
-D/home/leandro/Pictures
-	MB
-3
-D/home/leandro/Pictures/MB
-	IMG-20200405-WA0010.jpeg
-1
-D/home/leandro/Pictures
-	Fiuner
-2
-D/home/leandro/Pictures/Fiuner
-	20200803_103749.jpg
-1
-D/home/leandro/Pictures
-	Baulera
-1
-D/home/leandro/Pictures/Baulera
-	..
-0
-D/home/leandro/Pictures
-	Baulera
-1
-D/home/leandro
-	Documents
-2
-D/home/leandro/Documents
-	pgfmanual-en-library-mindmaps.tex
-13
-D/home/leandro
-	Pictures
-7
-D/home/leandro/Pictures
-	Baulera
-1
-D/home/leandro
-	Downloads
-3
-D/home/leandro/Downloads
-	tplink_01.png
-31
-D/home/leandro
-	Pictures
-7
-D/home/leandro/Pictures
-	20200423_235143.jpg
-8
-D/home/leandro
-	Videos
-12
-D/home/leandro/Videos
-	Viaje al oeste.mobi
-10
-D/home/leandro
-	Videos
-12
-D/home/leandro/Videos
-	Viaje al oeste.mobi
-10
-D/home/leandro
-	Desktop
-1
-D/home/leandro/Desktop
-	..
-0
 D/home/leandro
 	Documents
 2
@@ -635,23 +536,113 @@ D/home/leandro/Documents/GNULinux/dotFiles/vifm
 	..
 0
 D/tmp
+	mercadoPago.png
+18
+D/home/leandro
+	Downloads
+10
+D/home/leandro/Downloads
+	filipino.jpeg
+19
+D/home/leandro
+	Pictures
+13
+D/home/leandro/Pictures
+	20200423_235143.jpg
+8
+D/etc/vim
+	vimrc.local
+4
+D/opt/DataGrip-2021.1.3
+	license
+1
+D/opt/DataGrip-2021.1.3/license
+	..
+0
+D/opt/DataGrip-2021.1.3
+	license
+1
+D/opt
+	..
+0
+D/home/leandro
+	Documents
+12
+D/home/leandro/Documents
+	Fiat147
+12
+D/home/leandro/Documents/Fiat147
+	service_jul21.jpeg
+17
+D/home/leandro/Documents
+	TUPED
+6
+D/home/leandro/Documents/TUPED
+	Algoritmos
+7
+D/home/leandro/Documents/TUPED/Algoritmos
+	TP6
+1
+D/home/leandro/Documents/TUPED/Algoritmos/TP6
+	..
+0
+D/home/leandro/Documents/TUPED/Algoritmos
+	TP6
+1
+D/home/leandro/Documents/TUPED
+	Algoritmos
+7
+D/home/leandro/Documents
+	TUPED
+6
+D/home/leandro
+	sdb3MpY
+17
+D/home/leandro/sdb3MpY
+	Anabella
+11
+D/home/leandro/sdb3MpY/Anabella
+	..
+0
+D/home/leandro/sdb3MpY
+	LEANDRO
+28
+D/home/leandro/sdb3MpY/LEANDRO
+	..
+0
+D/home/leandro
+	Documents
+12
+D/home/leandro/Documents
+	TUPED
+6
+D/home/leandro/Documents/TUPED
+	Algoritmos
+7
+D/home/leandro/Documents/TUPED/Algoritmos
+	TP6
+3
+D/home/leandro/Documents/TUPED/Algoritmos/TP6
+	Codigo
+2
+D/home/leandro/Documents/TUPED/Algoritmos/TP6/Codigo
+	main.py
+1
+D/home/leandro/Documents/TUPED/Algoritmos/TP6
+	TP6_punto10.png
+3
+D/home/leandro/Documents/TUPED/Algoritmos
+	TP7
+2
+D/home/leandro/Documents/TUPED/Algoritmos/TP7
 	..
 0
 D
 
 # Command line history (oldest to newest):
-:cd .config/i3/
 :!rsync -avh %d/ %D/
-:cd .config
-:cd config
-:mkdir dunst
-:cd -
-:cd .config/
-:mkdir feh
-:!cp %f %D/
 :tabnew
 :!cp %f %D
-:cd /etc/vim/
 :!rsync -avh d%/ D%/
 :vmap/
 :help M
@@ -735,10 +726,20 @@ D
 :compare byname
 :compare exit
 :sort 
-:delete
 :empty
 :sort
+:cd /etc/vim/
+:cd /
+:noh
+:cd /opt/DataGrip-2021.1.3/
+:cd .config
+:cd .local/
+:mkdir TP6
 :set notrash
+:!du -sh %D
+:mkdir LEANDRO
+:mkdir Codigo
+:delete
 :q
 
 # Search history (oldest to newest):
@@ -765,6 +766,8 @@ D
 /mark
 /vifm
 /sh
+/datagrip
+/pycharm
 
 # Prompt history (oldest to newest):
 pbFerster
@@ -791,12 +794,15 @@ pnotasFiat147_rev01.md
 pBACKUPS_listo
 pLEANDRO_listo
 pCINE_listo
+pAnabell
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/leandro/.local/share/vifm/Trash/000_comoHaceLaCabra.mpeg
-""/home/leandro/.local/share/vifm/Trash/000_el-misterio-de-salems-lot.zip
+""/home/leandro/PycharmProjects/tp6/pqt_bt.py
+""/home/leandro/PycharmProjects/tp6/nodo.py
+""/home/leandro/PycharmProjects/tp6/nodo_cliente.py
+""/home/leandro/PycharmProjects/tp6/main.py
 
 # Directory stack (oldest to newest):
 

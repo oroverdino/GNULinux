@@ -490,7 +490,7 @@ nnoremap <f8> :delete<cr>
 " let $VIFM_SERVER_NAME = v:servername
 " ------------------------------------------------------------------------------
 
-nnoremap ry :!rsync -a %d/ %D/
+nnoremap ry :!rsync -avh --delete %d/ %D/
 
 nmap ; :
 

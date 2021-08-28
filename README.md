@@ -201,17 +201,20 @@ vim-gtk
 
 config/package-lists/multimedia.list.chroot
 :-----------------:
-vlc
 ffmpeg
+mplayer
 screenkey
+vlc
 :-----------------:
 
 config/package-lists/siar.list.chroot
 :-----------------:
+chntpw
+gpart
 gparted
 lshw
+testdisk
 udftools 
-chntpw
 :-----------------:
 
 config/package-lists/encryption.list.chroot
