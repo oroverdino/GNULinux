@@ -25,8 +25,8 @@
 # Bookmarks:
 
 # TUI:
-al
-q1
+ar
+q0
 v2
 ov
 m-1
@@ -34,339 +34,309 @@ l10,2
 r10,2
 
 # Left window history (oldest to newest):
-d/home/leandro/Documents/Win7/PCI-8738-091211-7.12.8.1740(W7-RC-01)
-	..
-0
+d/home/leandro
+	Documents
+11
+d/home/leandro/Documents
+	MercadoLibre
+2
+d/home/leandro/Documents/MercadoLibre
+	t430
+4
+d/home/leandro/Documents/MercadoLibre/t430
+	pqt_bt.py
+14
+d/home/leandro/Documents/MercadoLibre
+	t430
+4
+d/home/leandro/Documents
+	GNULinux
+12
+d/home/leandro/Documents/GNULinux
+	README.buster.md
+6
+d/home/leandro/Documents
+	Win7
+11
 d/home/leandro/Documents/Win7
 	..
 0
-d/home/leandro
-	Documents
-13
 d/home/leandro/Documents
-	Barrio
-11
-d/home/leandro/Documents/Barrio
-	Backups
-1
-d/home/leandro/Documents/Barrio/Backups
-	MikroTik-HAP_190526.backup
-12
-d/home/leandro/Documents/Barrio
-	Backups
-1
-d/home/leandro/Documents
-	Barrio
-11
-d/home/leandro
-	Documents
-13
-d/home/leandro/Documents
-	TUPED
-6
-d/home/leandro/Documents/TUPED
-	Algoritmos
-7
-d/home/leandro/Documents/TUPED/Algoritmos
-	TORRES_Dict Equiv AyED-Insfran.pdf
-1
-d/home/leandro/Documents/TUPED
-	Algoritmos
-7
-d/home/leandro/Documents/TUPED/Algoritmos
-	equivalencias.md
+	Fiat147
+10
+d/home/leandro/Documents/Fiat147
+	34386238_2198591087035386_6649974770081202176_o.jpg
 2
-d/tmp
-	dream.jpeg
-14
-d/home/leandro
-	PycharmProjects
-5
-d/home/leandro/PycharmProjects
-	algoritmos
-1
-d/home/leandro/PycharmProjects/algoritmos
-	venv
-1
-d/home/leandro/PycharmProjects/algoritmos/venv
-	nodo.py
+d/home/leandro/Documents
+	Barrio
 9
-d/home/leandro/PycharmProjects/algoritmos
-	venv
-1
-d/home/leandro/PycharmProjects
-	algoritmos
-1
-d/home/leandro/PycharmProjects/algoritmos
-	venv
-1
-d/home/leandro/PycharmProjects
-	tuped_pye
-2
-d/home/leandro/PycharmProjects/tuped_pye
-	pnm.png
-1
-d/home/leandro/PycharmProjects
-	PyE
-3
-d/home/leandro/PycharmProjects/PyE
+d/home/leandro/Documents/Barrio
 	..
 0
-d/home/leandro/PycharmProjects
-	PyE
-3
+d/home/leandro/Documents
+	ratRace
+8
+d/home/leandro/Documents/ratRace
+	ferretodo.md
+2
+d/home/leandro/Documents
+	ratRace
+13
 d/home/leandro
-	PycharmProjects
+	Videos
+10
+d/home/leandro/Videos
+	Xerox
+1
+d/home/leandro/Videos/Xerox
+	..
+0
+d/home/leandro/Videos
+	VID-20200728-WA0005.mp4
+1
+d/home/leandro
+	oneDrive
+8
+d/home/leandro/oneDrive
+	home
+14
+d/home/leandro/oneDrive/home
+	fiuner
+1
+d/home/leandro/oneDrive/home/fiuner
+	Descargas
+12
+d/home/leandro/oneDrive/home/fiuner/Descargas
+	..
+0
+d/home/leandro/oneDrive
+	LEANDRO
+28
+d/home/leandro/oneDrive/LEANDRO
+	BACKUPS
+1
+d/home/leandro/oneDrive/LEANDRO/BACKUPS
+	..
+0
+d/home/leandro/oneDrive/LEANDRO
+	SOFTWARE
+2
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE
+	Lenovo_T430-W7+64
+2
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Lenovo_T430-W7+64
+	..
+0
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE
+	Linux
+3
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Linux
+	..
+0
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE
+	Mikrotik
+4
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Mikrotik
+	..
+0
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE
+	Windows
+5
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows
+	Corel12
+3
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Corel12
+	..
+0
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows
+	Microsoft
+3
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Microsoft
+	Medicinas
+1
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Microsoft/Medicinas
+	..
+0
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Microsoft
+	W10
+2
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Microsoft/W10
+	..
+0
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Microsoft
+	W7
+3
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Microsoft/W7
+	..
+0
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Microsoft
+	XP
+4
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Microsoft/XP
+	Serial.txt
+1
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Microsoft
+	..
+0
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows
+	Multisim 11
+4
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Multisim 11
+	..
+0
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows
+	SetupPadlock
+4
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/SetupPadlock
+	Padlock
+1
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/SetupPadlock/Padlock
+	Padlock.exe
+5
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/SetupPadlock
+	Padlock
+1
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows
+	Microsoft
+3
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Microsoft
+	Medicinas
+1
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Microsoft/Medicinas
+	..
+0
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Microsoft
+	W10
+2
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Microsoft/W10
+	..
+0
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Microsoft
+	..
+0
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows
+	Camtasia
+2
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Camtasia
+	Notas Camtasia.txt
+3
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows
+	Microsoft
+1
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE
+	Mikrotik
+4
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Mikrotik
+	W5EY-LHT9.KEY
+2
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE
+	Linux
+3
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Linux
+	..
+0
+d/home/leandro/oneDrive/LEANDRO/SOFTWARE
+	Garmin
+1
+d/home/leandro/oneDrive/LEANDRO
+	SOFTWARE
+2
+d/home/leandro/oneDrive
+	LEANDRO
+28
+d/home/leandro/oneDrive/LEANDRO
+	SOFTWARE
+2
+d/home/leandro/oneDrive
+	LEANDRO
+28
+d/home/leandro/oneDrive/LEANDRO
+	SOFTWARE
+2
+d/home/leandro/oneDrive
+	LEANDRO
+28
+d/home/leandro/oneDrive/LEANDRO
+	SOFTWARE
+2
+d/home/leandro/oneDrive
+	..
+0
+d/home/leandro
+	oneDrive
+2
+d/home/leandro/oneDrive
+	home
+14
+d/home/leandro/oneDrive/home
+	fiuner
+1
+d/home/leandro/oneDrive/home/fiuner
+	Descargas
+8
+d/home/leandro/oneDrive/home/fiuner/Descargas
+	elevador.pdf
+18
+d/home/leandro/oneDrive/home/fiuner
+	Documentos
+4
+d/home/leandro/oneDrive/home/fiuner/Documentos
+	..
+0
+d/home/leandro/oneDrive/home/fiuner
+	Grabaciones
+5
+d/home/leandro/oneDrive/home/fiuner/Grabaciones
+	..
+0
+d/home/leandro/oneDrive/home/fiuner
+	Escritorio
+6
+d/home/leandro/oneDrive/home/fiuner/Escritorio
+	Rodo
+1
+d/home/leandro/oneDrive/home/fiuner/Escritorio/Rodo
+	Planillas Limpieza
+1
+d/home/leandro/oneDrive/home/fiuner/Escritorio/Rodo/Planillas Limpieza
+	PLANTILLA LIMPIEZA AULAS.ods
+8
+d/home/leandro/oneDrive/home/fiuner/Escritorio/Rodo
+	Planillas Limpieza
+1
+d/home/leandro/oneDrive/home/fiuner/Escritorio
+	Rodo
+1
+d/home/leandro/oneDrive/home/fiuner
+	Escritorio
+6
+d/home/leandro/oneDrive/home
+	fiuner
+1
+d/home/leandro/oneDrive
+	home
+14
+d/home/leandro
+	R
+3
+d/home/leandro/R
+	..
+0
+d/home/leandro
+	Videos
 13
 d/home
 	leandro
 1
 d/home/leandro
-	Documents
-12
-d/home/leandro/Documents
-	Barrio
-11
-d/home/leandro/Documents/Barrio
-	Notas
-2
-d/home/leandro/Documents/Barrio/Notas
-	Arnet
-1
-d/home/leandro/Documents/Barrio/Notas/Arnet
-	arnetAntonio.txt
-5
-d/tmp
-	recup_dir.1
-5
-d/tmp/recup_dir.1
-	f0055832.jpg
-25
-d/tmp
-	recup_dir.1
-5
-d/tmp/recup_dir.1
-	f0005888.rar
-24
-d/tmp
-	gatite.jpeg
-8
-d/home/leandro
-	sdb1JwP
-6
-d/home/leandro/sdb1JwP
-	BACKUPS
-3
-d/home/leandro/sdb1JwP/BACKUPS
-	..
-0
-d/home/leandro/sdb1JwP
-	BACKUPS
-3
-d/home/leandro
-	sdb2I78
-7
-d/home/leandro/sdb2I78
-	SOFTWARE
-1
-d/home/leandro/sdb2I78/SOFTWARE
-	..
-0
-d/home/leandro/sdb2I78
-	SOFTWARE
-1
-d/home/leandro
-	sdb4Jdt
-8
-d/home/leandro/sdb4Jdt
-	lost+found
-1
-d/home/leandro
-	sdb1JwP
-6
-d/home/leandro/sdb1JwP
-	..
-0
-d/home/leandro
-	sdb2I78
-7
-d/home/leandro/sdb2I78
-	..
-0
-d/home/leandro
-	sdb4Jdt
-8
-d/home/leandro/sdb4Jdt
-	..
-0
-d/home/leandro
-	sdb1JwP
-6
-d/home/leandro/sdb1JwP
-	..
-0
-d/home/leandro
-	sdb1JwP
-14
-d/tmp
-	TP7_listaDeAdyacencia.png
-22
-d/home/leandro
-	Documents
-12
-d/home/leandro/Documents
-	practicalVim
-9
-d/home/leandro/Documents/practicalVim
-	..
-0
-d/home/leandro/Documents
-	practicalVim
-9
-d/home/leandro
-	PycharmProjects
-16
-d/home/leandro/PycharmProjects
-	tp6
-7
-d/home/leandro/PycharmProjects/tp6
-	pqt_bt.py
-2
-d/home/leandro/PycharmProjects
-	tp6
-7
-d/home/leandro
-	Documents
-12
-d/home/leandro/Documents
-	TUPED
-6
-d/home/leandro/Documents/TUPED
-	Algoritmos
-7
-d/home/leandro/Documents/TUPED/Algoritmos
-	Guía de TP 7_ Unidad 5 - leandroTorres.pdf
-15
-d/tmp
-	plato.jpeg
-10
-d/
-	tmp
-13
-d/home/leandro
-	Documents
-12
-d/home/leandro/Documents
-	GNULinux
-13
-d/home/leandro/Documents/GNULinux
-	scripts
-5
-d/home/leandro/Documents/GNULinux/scripts
-	Examples
+	oneDrive
 4
-d/home/leandro/Documents/GNULinux/scripts/Examples
-	..
-0
-d/home/leandro/Documents/GNULinux/scripts
-	Examples
+d/home/leandro/oneDrive
+	CINE_listo
 4
-d/home/leandro/Documents/GNULinux
-	scripts
-5
-d/home/leandro/Documents/GNULinux/scripts
-	Examples
-4
-d/home/leandro/Documents/GNULinux/scripts/Examples
-	..
-0
-d/home/leandro/Documents/GNULinux/scripts
-	Examples
-4
-d/home/leandro/Documents/GNULinux/scripts/Examples
-	ssh_tar.md
-7
-d/home/leandro/Documents/GNULinux/scripts
-	bashTutor
-2
-d/home/leandro/Documents/GNULinux/scripts/bashTutor
-	hi.sh
-3
-d/home/leandro/Documents/GNULinux/scripts
-	Oldies
-1
-d/home/leandro/Documents/GNULinux
-	Apps
-4
-d/home/leandro/Documents/GNULinux/Apps
-	..
-0
-d/home/leandro/Documents/GNULinux
-	dotFiles
-2
-d/home/leandro/Documents/GNULinux/dotFiles
-	fonts
-1
-d/home/leandro/Documents/GNULinux
-	rpi
-1
-d/home/leandro/Documents/GNULinux/rpi
-	..
-0
-d/home/leandro/Documents/GNULinux
-	scripts
-5
-d/home/leandro/Documents/GNULinux/scripts
-	Oldies
-1
-d/home/leandro/Documents/GNULinux/scripts/Oldies
-	organizar.sh
-1
-d/home/leandro/Documents/GNULinux/scripts
-	bashTutor
-2
-d/home/leandro/Documents/GNULinux/scripts/bashTutor
-	hello.sh
-2
-d/home/leandro/Documents/GNULinux/scripts
-	rata.sh
-6
-d/home/leandro/Documents/GNULinux
-	README.md
-7
 d
 
 # Right window history (oldest to newest):
-D/home/leandro
-	Documents
-2
-D/home/leandro/Documents
-	pgfmanual-en-library-mindmaps.tex
-13
-D/home/leandro
-	Downloads
-3
-D/home/leandro/Downloads
-	WF_AI-in-LA_Report_Spanish_Screen_AW.pdf
-7
-D/home/leandro
-	Eventuales
-5
-D/home/leandro/Eventuales
-	flota.sh
-3
-D/home/leandro
-	Music
-6
-D/home/leandro/Music
-	El umbral de la noche - King, Stephen.zip
-2
-D/home/leandro
-	Pictures
-7
-D/home/leandro/Pictures
-	Webcam
-6
 D/home/leandro/Pictures/Webcam
 	..
 0
@@ -637,12 +607,39 @@ D/home/leandro/Documents/TUPED/Algoritmos
 D/home/leandro/Documents/TUPED/Algoritmos/TP7
 	..
 0
+D/home/leandro/Documents/TUPED/Algoritmos
+	TP7
+2
+D/home/leandro/Documents/TUPED
+	Algoritmos
+7
+D/home/leandro
+	oneDrive
+1
+D/home/leandro/oneDrive
+	documents
+3
+D/home/leandro/oneDrive/documents
+	..
+0
+D/home/leandro/oneDrive
+	..
+0
+D/home/leandro/Pictures/MB
+	IMG-20200405-WA0010.jpeg
+1
+D/home/leandro/Pictures
+	MB
+7
+D/home/leandro
+	Drive
+13
+D/home/leandro/Drive
+	CINE_listo
+5
 D
 
 # Command line history (oldest to newest):
-:!rsync -avh %d/ %D/
-:tabnew
-:!cp %f %D
 :!rsync -avh d%/ D%/
 :vmap/
 :help M
@@ -702,7 +699,6 @@ D
 :!rsync -a %d/ %D/
 :!rsync -aHX %d/ %D/
 :!rsync -avHX %d/ %D/
-:sync
 :cd tmp
 :?mark
 :?'
@@ -735,11 +731,14 @@ D
 :cd .config
 :cd .local/
 :mkdir TP6
-:set notrash
 :!du -sh %D
 :mkdir LEANDRO
 :mkdir Codigo
+:cd /usr/lib/cups/filter/
+:sync
+:set notrash
 :delete
+:!du -sh %d
 :q
 
 # Search history (oldest to newest):
