@@ -1,0 +1,5 @@
+curl
+nmap
+rclone
+sshfs
+task-ssh-server

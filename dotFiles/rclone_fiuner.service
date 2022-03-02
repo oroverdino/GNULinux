@@ -1,0 +1,17 @@
+[Unit]
+Description=rclone_fiuner
+AssertPathIsDirectory=/home/leandro/Drive
+After=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/rclone mount \
+        --config=/home/leandro/.config/rclone/rclone.conf \
+        --vfs-cache-mode writes \
+        fiuner: /home/leandro/Drive
+ExecStop=/bin/fusermount -u /home/leandro/Drive
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,21 @@
+# The exclusions are always relatives to the origin:
+#
+#home
+#.cache/google-chrome/Default/Cache
+#.cache/mozilla/firefox/y34ttzce.default 
+#
+# octubre 2021
+
+.cache
+.config/google-chrome
+.local/share/Trash
+.local/share/vifm/Trash
+Desktop
+Downloads
+Drive
+Music
+Public
+Templates
+Videos
+oneDrive
+

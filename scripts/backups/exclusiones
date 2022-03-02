@@ -12,13 +12,12 @@
 #
 bin
 boot
-.cache
 dev
 #etc 
-#home
-home/leandro/.cache/google-chrome/Default/Cache
-home/leandro/.cache/mozilla/firefox/y34ttzce.default 
-home/leandro/.local/share/Trash
+home
+#home/leandro/.cache/google-chrome/Default/Cache
+#home/leandro/.local/share/Trash
+#home/leandro/.local/share/vifm/Trash
 initrd.img
 initrd.img.old
 lib

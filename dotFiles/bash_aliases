@@ -19,7 +19,7 @@ alias wttr2='/home/leandro/Documents/GNULinux/scripts/wttr2.sh'
 
 # rclone
 alias baulera='/home/leandro/Documents/GNULinux/scripts/baulera.sh'
-alias barrio='/home/leandro/Documents/GNULinux/scripts/barrio.sh'
+alias edm='/home/leandro/Documents/GNULinux/scripts/edm.sh'
 alias fiat147='/home/leandro/Documents/GNULinux/scripts/fiat147.sh'
 alias gnulinux='/home/leandro/Documents/GNULinux/scripts/gnulinux.sh'
 alias gugler='/home/leandro/Documents/GNULinux/scripts/gugler.sh'

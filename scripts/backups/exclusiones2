@@ -1,0 +1,33 @@
+# The exclusions are always relatives to the origin:
+#
+# rsync -avHX --delete --exclude-from=exclusiones / /mnt/...
+#
+# You must backup:
+# /etc
+# /home
+# /opt
+# /root
+# /usr
+# /var
+# 
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+boot/
+dev/
+#etc/
+home/
+lost+found/
+media/
+mnt/
+#opt/
+proc/
+#root/
+run/
+srv/
+sys/
+tmp/
+#usr/
+#var/
+var/cache
+var/run
+var/tmp
+

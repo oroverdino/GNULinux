@@ -496,5 +496,5 @@ nmap ; :
 
 set relativenumber
 
-set notrash
+"set notrash
 

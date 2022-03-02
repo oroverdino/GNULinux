@@ -30,651 +30,622 @@ q0
 v2
 ov
 m-1
-l10,2
-r10,2
+l8,2
+r2
 
 # Left window history (oldest to newest):
+d/home/leandro/Documents/GNULinux/Apps
+	liveBuild
+2
+d/home/leandro/Documents/GNULinux/Apps/liveBuild
+	juanCarlos
+2
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos
+	bootloaders
+2
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders
+	..
+0
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos
+	bootloaders
+2
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders
+	..
+0
+d/home/leandro
+	Drive
+4
+d/home/leandro/Drive
+	live_juanCarlos
+6
+d/home/leandro/Drive/live_juanCarlos
+	config
+2
+d/home/leandro/Drive/live_juanCarlos/config
+	bootloaders
+3
+d/home/leandro/Drive/live_juanCarlos/config/bootloaders
+	extlinux
+1
+d/home/leandro/Drive/live_juanCarlos/config/bootloaders/extlinux
+	..
+0
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders
+	..
+0
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos
+	bootloaders
+2
+d/home/leandro/Documents/GNULinux/Apps/liveBuild
+	juanCarlos
+2
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos
+	bootloaders
+2
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders
+	extlinux
+1
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders/extlinux
+	..
+0
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders
+	grub-legacy
+2
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders/grub-legacy
+	..
+0
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders
+	grub-pc
+3
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders/grub-pc
+	live-theme
+1
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders/grub-pc/live-theme
+	..
+0
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders/grub-pc
+	live-theme
+1
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders
+	isolinux
+4
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders/isolinux
+	..
+0
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders
+	pxelinux
+5
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders/pxelinux
+	..
+0
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders
+	syslinux
+6
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders/syslinux
+	..
+0
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders
+	syslinux_common
+7
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders/syslinux_common
+	..
+0
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders
+	syslinux_common
+7
+d/home/leandro
+	Drive
+5
+d/home/leandro/Drive
+	live_juanCarlos
+6
 d/home/leandro
 	Documents
-11
-d/home/leandro/Documents
-	MercadoLibre
-2
-d/home/leandro/Documents/MercadoLibre
-	t430
-4
-d/home/leandro/Documents/MercadoLibre/t430
-	pqt_bt.py
-14
-d/home/leandro/Documents/MercadoLibre
-	t430
 4
 d/home/leandro/Documents
 	GNULinux
-12
+5
 d/home/leandro/Documents/GNULinux
-	README.buster.md
+	Apps
+2
+d/home/leandro/Documents/GNULinux/Apps
+	liveBuild
+2
+d/home/leandro/Documents/GNULinux/Apps/liveBuild
+	juanCarlos
+2
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos
+	auto
+1
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/auto
+	config
+1
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos
+	bootloaders
+2
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders
+	syslinux_common
+7
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos
+	package-lists
+3
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/package-lists
+	..
+0
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos
+	bootloaders
+2
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders
+	syslinux_common
+7
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders/syslinux_common
+	..
+0
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders
+	syslinux_common
+7
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos
+	bootloaders
+2
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders
+	syslinux_common
+7
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders/syslinux_common
+	..
+0
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders
+	syslinux
 6
-d/home/leandro/Documents
-	Win7
-11
-d/home/leandro/Documents/Win7
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders/syslinux
 	..
 0
-d/home/leandro/Documents
-	Fiat147
-10
-d/home/leandro/Documents/Fiat147
-	34386238_2198591087035386_6649974770081202176_o.jpg
-2
-d/home/leandro/Documents
-	Barrio
-9
-d/home/leandro/Documents/Barrio
-	..
-0
-d/home/leandro/Documents
-	ratRace
-8
-d/home/leandro/Documents/ratRace
-	ferretodo.md
-2
-d/home/leandro/Documents
-	ratRace
-13
-d/home/leandro
-	Videos
-10
-d/home/leandro/Videos
-	Xerox
-1
-d/home/leandro/Videos/Xerox
-	..
-0
-d/home/leandro/Videos
-	VID-20200728-WA0005.mp4
-1
-d/home/leandro
-	oneDrive
-8
-d/home/leandro/oneDrive
-	home
-14
-d/home/leandro/oneDrive/home
-	fiuner
-1
-d/home/leandro/oneDrive/home/fiuner
-	Descargas
-12
-d/home/leandro/oneDrive/home/fiuner/Descargas
-	..
-0
-d/home/leandro/oneDrive
-	LEANDRO
-28
-d/home/leandro/oneDrive/LEANDRO
-	BACKUPS
-1
-d/home/leandro/oneDrive/LEANDRO/BACKUPS
-	..
-0
-d/home/leandro/oneDrive/LEANDRO
-	SOFTWARE
-2
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE
-	Lenovo_T430-W7+64
-2
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Lenovo_T430-W7+64
-	..
-0
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE
-	Linux
-3
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Linux
-	..
-0
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE
-	Mikrotik
-4
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Mikrotik
-	..
-0
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE
-	Windows
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders
+	pxelinux
 5
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows
-	Corel12
-3
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Corel12
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders/pxelinux
 	..
 0
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows
-	Microsoft
-3
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Microsoft
-	Medicinas
-1
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Microsoft/Medicinas
-	..
-0
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Microsoft
-	W10
-2
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Microsoft/W10
-	..
-0
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Microsoft
-	W7
-3
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Microsoft/W7
-	..
-0
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Microsoft
-	XP
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders
+	isolinux
 4
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Microsoft/XP
-	Serial.txt
-1
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Microsoft
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders/isolinux
 	..
 0
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows
-	Multisim 11
-4
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Multisim 11
-	..
-0
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows
-	SetupPadlock
-4
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/SetupPadlock
-	Padlock
-1
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/SetupPadlock/Padlock
-	Padlock.exe
-5
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/SetupPadlock
-	Padlock
-1
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows
-	Microsoft
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders
+	grub-pc
 3
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Microsoft
-	Medicinas
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders/grub-pc
+	live-theme
 1
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Microsoft/Medicinas
-	..
-0
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Microsoft
-	W10
-2
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Microsoft/W10
-	..
-0
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Microsoft
-	..
-0
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows
-	Camtasia
-2
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows/Camtasia
-	Notas Camtasia.txt
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders
+	grub-pc
 3
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Windows
-	Microsoft
-1
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE
-	Mikrotik
-4
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Mikrotik
-	W5EY-LHT9.KEY
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos
+	bootloaders
 2
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE
-	Linux
+d/home/leandro/Documents/GNULinux/Apps/liveBuild
+	Morlock
+2
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock
+	..
+0
+d/home/leandro/Documents/GNULinux/Apps/liveBuild
+	juanCarlos
 3
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE/Linux
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos
+	bootloaders
+2
+d/home/leandro/Documents/GNULinux/Apps/liveBuild
+	Morlock
+2
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock
+	package-lists
+2
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/package-lists
+	
+2
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock
+	config
+2
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config
+	package-lists
+2
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/package-lists
+	encryption.list.chroot
+1
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config
+	package-lists
+2
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock
+	auto
+1
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/auto
+	config
+1
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock
+	config
+2
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config
+	package-lists
+2
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock
+	config
+2
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config
+	bootloaders
+1
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders
+	extlinux
+1
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders/extlinux
 	..
 0
-d/home/leandro/oneDrive/LEANDRO/SOFTWARE
-	Garmin
-1
-d/home/leandro/oneDrive/LEANDRO
-	SOFTWARE
-2
-d/home/leandro/oneDrive
-	LEANDRO
-28
-d/home/leandro/oneDrive/LEANDRO
-	SOFTWARE
-2
-d/home/leandro/oneDrive
-	LEANDRO
-28
-d/home/leandro/oneDrive/LEANDRO
-	SOFTWARE
-2
-d/home/leandro/oneDrive
-	LEANDRO
-28
-d/home/leandro/oneDrive/LEANDRO
-	SOFTWARE
-2
-d/home/leandro/oneDrive
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders
 	..
 0
-d/home/leandro
-	oneDrive
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config
+	..
+0
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock
+	auto
+1
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/auto
+	config
+1
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock
+	config
 2
-d/home/leandro/oneDrive
-	home
-14
-d/home/leandro/oneDrive/home
-	fiuner
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config
+	bootloaders
 1
-d/home/leandro/oneDrive/home/fiuner
-	Descargas
-8
-d/home/leandro/oneDrive/home/fiuner/Descargas
-	elevador.pdf
-18
-d/home/leandro/oneDrive/home/fiuner
-	Documentos
-4
-d/home/leandro/oneDrive/home/fiuner/Documentos
-	..
-0
-d/home/leandro/oneDrive/home/fiuner
-	Grabaciones
-5
-d/home/leandro/oneDrive/home/fiuner/Grabaciones
-	..
-0
-d/home/leandro/oneDrive/home/fiuner
-	Escritorio
-6
-d/home/leandro/oneDrive/home/fiuner/Escritorio
-	Rodo
-1
-d/home/leandro/oneDrive/home/fiuner/Escritorio/Rodo
-	Planillas Limpieza
-1
-d/home/leandro/oneDrive/home/fiuner/Escritorio/Rodo/Planillas Limpieza
-	PLANTILLA LIMPIEZA AULAS.ods
-8
-d/home/leandro/oneDrive/home/fiuner/Escritorio/Rodo
-	Planillas Limpieza
-1
-d/home/leandro/oneDrive/home/fiuner/Escritorio
-	Rodo
-1
-d/home/leandro/oneDrive/home/fiuner
-	Escritorio
-6
-d/home/leandro/oneDrive/home
-	fiuner
-1
-d/home/leandro/oneDrive
-	home
-14
-d/home/leandro
-	R
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders
+	syslinux_common
+7
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config
+	package-lists
+2
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/package-lists
+	desktop.list.chroot
+2
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config
+	package-lists
+2
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock
+	config
+2
+d/home/leandro/Documents/GNULinux/Apps/liveBuild
+	juanCarlos
 3
-d/home/leandro/R
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos
+	package-lists
+4
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/package-lists
 	..
 0
-d/home/leandro
-	Videos
-13
-d/home
-	leandro
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos
+	package-lists
+4
+d/home/leandro/Documents/GNULinux/Apps/liveBuild
+	Morlock
+2
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock
+	auto
 1
-d/home/leandro
-	oneDrive
-4
-d/home/leandro/oneDrive
-	CINE_listo
-4
+d/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/auto
+	config
+1
 d
 
 # Right window history (oldest to newest):
-D/home/leandro/Pictures/Webcam
-	..
-0
-D/home/leandro/Pictures
-	Sillas
-5
-D/home/leandro/Pictures/Sillas
-	20200715_170340.jpg
-1
-D/home/leandro/Pictures
-	Mandalas
-4
-D/home/leandro/Pictures/Mandalas
-	mandala_r01.jpg
-2
-D/home/leandro/Pictures
-	MB
-3
-D/home/leandro/Pictures/MB
-	IMG-20200405-WA0010.jpeg
-1
-D/home/leandro/Pictures
-	Fiuner
-2
-D/home/leandro/Pictures/Fiuner
-	20200803_103749.jpg
-1
-D/home/leandro/Pictures
-	Baulera
-1
-D/home/leandro/Pictures/Baulera
-	..
-0
-D/home/leandro/Pictures
-	Baulera
-1
-D/home/leandro
-	Public
-8
-D/home/leandro/Public
-	..
-0
-D/home/leandro
-	PycharmProjects
-9
-D/home/leandro/PycharmProjects
-	..
-0
-D/home/leandro
-	R
-10
-D/home/leandro/R
-	..
-0
-D/home/leandro
-	Templates
-11
-D/home/leandro/Templates
-	..
-0
-D/home/leandro
-	Videos
-12
-D/home/leandro/Videos
-	Viaje al oeste.mobi
-10
-D/home/leandro
-	..
-0
-D/home
-	leandro
-1
-D/
-	home
-4
-D/home
-	leandro
-1
-D/home/leandro
-	Documents
-2
-D/home/leandro/Documents
-	GNULinux
-4
-D/home/leandro/Documents/GNULinux
-	scripts
-5
-D/home/leandro/Documents/GNULinux/scripts
-	wttr2.sh
-31
-D/home/leandro/Documents/GNULinux
-	README.md
-7
-D/home/leandro/Documents
-	GNULinux
-4
-D/home/leandro
-	Documents
-2
-D/home/leandro/.vifm
-	scripts
-2
-D/home/leandro/.vifm/scripts
-	..
-0
-D/home/leandro/.vifm
-	vifminfo
-4
-D/home/leandro/Documents/TUPED/PyE
-	..
-0
-D/home/leandro/Documents/TUPED
-	PyE
+D/home/leandro/Drive
+	live_juanCarlos
 6
-D/home/leandro/Documents
-	TUPED
-10
-D/home/leandro
-	Documents
-2
-D/home
-	leandro
-1
-D/
-	media
-10
-D/media
-	leandro
+D/home/leandro/Drive/live_juanCarlos
+	config
 3
-D/home/leandro
-	Documents
-2
-D/home
-	leandro
-1
-D/
-	mnt
-11
-D/mnt
+D/home/leandro/Drive/live_juanCarlos/config
+	bootloaders
+3
+D/home/leandro/Drive/live_juanCarlos/config/bootloaders
 	..
 0
-D/media
-	leandro
+D/home/leandro/Drive/live_juanCarlos/config
+	bootloaders
 3
-D/
-	mnt
-11
-D/mnt
+D/home/leandro/Drive/live_juanCarlos/config/bootloaders
+	extlinux
+1
+D/home/leandro/Drive/live_juanCarlos/config/bootloaders/extlinux
 	..
 0
-D/tmp
-	output.mp4
-19
-D/home/leandro
-	Documents
+D/home/leandro/Drive/live_juanCarlos/config/bootloaders
+	grub-legacy
 2
-D/home/leandro/Documents
-	GNULinux
+D/home/leandro/Drive/live_juanCarlos/config/bootloaders/grub-legacy
+	..
+0
+D/home/leandro/Drive/live_juanCarlos/config/bootloaders
+	grub-pc
+3
+D/home/leandro/Drive/live_juanCarlos/config/bootloaders/grub-pc
+	live-theme
+1
+D/home/leandro/Drive/live_juanCarlos/config/bootloaders
+	isolinux
 4
-D/home/leandro/Documents/GNULinux
-	dotFiles
-3
-D/home/leandro/Documents/GNULinux/dotFiles
-	vifm
-3
-D/home/leandro/Documents/GNULinux/dotFiles/vifm
+D/home/leandro/Drive/live_juanCarlos/config/bootloaders/isolinux
 	..
 0
-D/tmp
-	mercadoPago.png
-18
-D/home/leandro
-	Downloads
-10
-D/home/leandro/Downloads
-	filipino.jpeg
-19
-D/home/leandro
-	Pictures
-13
-D/home/leandro/Pictures
-	20200423_235143.jpg
-8
-D/etc/vim
-	vimrc.local
-4
-D/opt/DataGrip-2021.1.3
-	license
+D/home/leandro/Drive/live_juanCarlos/config/bootloaders
+	pxelinux
+5
+D/home/leandro/Drive/live_juanCarlos/config/bootloaders/pxelinux
+	pxelinux.cfg
 1
-D/opt/DataGrip-2021.1.3/license
+D/home/leandro/Drive/live_juanCarlos/config/bootloaders/pxelinux/pxelinux.cfg
 	..
 0
-D/opt/DataGrip-2021.1.3
-	license
+D/home/leandro/Drive/live_juanCarlos/config/bootloaders/pxelinux
+	pxelinux.cfg
 1
-D/opt
+D/home/leandro/Drive/live_juanCarlos/config/bootloaders
+	pxelinux
+5
+D/home/leandro/Drive/live_juanCarlos/config
+	package-lists
+14
+D/home/leandro/Drive/live_juanCarlos/config/package-lists
+	..
+0
+D/home/leandro/Drive
 	..
 0
 D/home/leandro
-	Documents
+	B570
+1
+D/home/leandro/B570
+	..
+0
+D/home/leandro
+	B570
+1
+D/home/leandro/B570
+	debian_live
 12
+D/home/leandro/B570/debian_live
+	live_juanCarlos
+5
+D/home/leandro/B570/debian_live/live_juanCarlos
+	config
+5
+D/home/leandro/B570/debian_live/live_juanCarlos/config
+	bootloaders
+3
+D/home/leandro/B570/debian_live/live_juanCarlos
+	config
+5
+D/home/leandro/B570/debian_live
+	live_juanCarlos
+5
+D/home/leandro/B570/debian_live/live_juanCarlos
+	auto
+1
+D/home/leandro/B570/debian_live/live_juanCarlos/auto
+	..
+0
+D/home/leandro/B570/debian_live/live_juanCarlos
+	config
+5
+D/home/leandro/B570/debian_live/live_juanCarlos/config
+	includes.chroot
+9
+D/home/leandro/B570/debian_live/live_juanCarlos/config/includes.chroot
+	etc
+1
+D/home/leandro/B570/debian_live/live_juanCarlos/config/includes.chroot/etc
+	skel
+1
+D/home/leandro/B570/debian_live/live_juanCarlos/config/includes.chroot/etc/skel
+	..
+0
+D/home/leandro/B570/debian_live/live_juanCarlos/config/includes.chroot/etc
+	skel
+1
+D/home/leandro/B570/debian_live/live_juanCarlos/config/includes.chroot
+	etc
+1
+D/home/leandro/B570/debian_live/live_juanCarlos/config
+	includes.chroot
+9
+D/home/leandro/B570/debian_live/live_juanCarlos
+	config_juanCarlos.sh
+12
+D/home/leandro/B570/debian_live
+	live_juanCarlos
+4
+D/home/leandro/B570
+	debian_live
+12
+D/home/leandro/B570/debian_live
+	..
+0
+D/home/leandro/B570
+	debian_live
+12
+D/home/leandro/B570/debian_live
+	live-morlock
+4
+D/home/leandro/B570/debian_live/live-morlock
+	..
+0
+D/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock
+	config
+2
+D/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config
+	bootloaders
+1
+D/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders
+	extlinux
+1
+D/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders/extlinux
+	..
+0
+D/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders
+	extlinux
+1
+D/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders/extlinux
+	extlinux.conf
+1
+D/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders
+	grub-legacy
+2
+D/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders/grub-legacy
+	splash.xpm.gz
+3
+D/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders
+	grub-pc
+3
+D/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders/grub-pc
+	live-theme
+1
+D/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders/grub-pc/live-theme
+	theme.txt
+2
+D/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders/grub-pc
+	live-theme
+1
+D/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders
+	isolinux
+4
+D/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders/isolinux
+	ldlinux.c32
+3
+D/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders
+	pxelinux
+5
+D/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders/pxelinux
+	pxelinux.0
+3
+D/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders
+	isolinux
+4
+D/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders/isolinux
+	ldlinux.c32
+3
+D/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders
+	syslinux
+6
+D/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders/syslinux
+	syslinux.cfg
+2
+D/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders
+	syslinux_common
+7
+D/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders/syslinux_common
+	stdmenu.cfg
+12
+D/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders
+	syslinux_common
+7
+D/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config
+	bootloaders
+1
+D/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock
+	config
+2
+D/home/leandro/Documents/GNULinux/Apps/liveBuild
+	Morlock
+2
+D/home/leandro/Documents/GNULinux/Apps
+	liveBuild
+2
+D/home/leandro/Documents/GNULinux
+	Apps
+1
 D/home/leandro/Documents
 	Fiat147
+4
+D/home/leandro
+	B570
+1
+D/home/leandro/B570
+	debian_live
 12
-D/home/leandro/Documents/Fiat147
-	service_jul21.jpeg
-17
-D/home/leandro/Documents
-	TUPED
-6
-D/home/leandro/Documents/TUPED
-	Algoritmos
-7
-D/home/leandro/Documents/TUPED/Algoritmos
-	TP6
-1
-D/home/leandro/Documents/TUPED/Algoritmos/TP6
+D/home/leandro/B570/debian_live
+	live-morlock
+4
+D/home/leandro/B570/debian_live/live-morlock
 	..
 0
-D/home/leandro/Documents/TUPED/Algoritmos
-	TP6
-1
-D/home/leandro/Documents/TUPED
-	Algoritmos
-7
-D/home/leandro/Documents
-	TUPED
-6
-D/home/leandro
-	sdb3MpY
-17
-D/home/leandro/sdb3MpY
-	Anabella
-11
-D/home/leandro/sdb3MpY/Anabella
+D/home/leandro/B570/debian_live
+	live-morlock
+4
+D/home/leandro/B570/debian_live/live-morlock
 	..
 0
-D/home/leandro/sdb3MpY
-	LEANDRO
-28
-D/home/leandro/sdb3MpY/LEANDRO
-	..
-0
-D/home/leandro
-	Documents
-12
-D/home/leandro/Documents
-	TUPED
-6
-D/home/leandro/Documents/TUPED
-	Algoritmos
-7
-D/home/leandro/Documents/TUPED/Algoritmos
-	TP6
+D/home/leandro/B570/debian_live
+	live-images
 3
-D/home/leandro/Documents/TUPED/Algoritmos/TP6
-	Codigo
-2
-D/home/leandro/Documents/TUPED/Algoritmos/TP6/Codigo
-	main.py
+D/home/leandro/B570/debian_live/live-images
+	..
+0
+D/home/leandro/B570/debian_live
+	live-morlock
+4
+D/home/leandro/B570/debian_live/live-morlock
+	auto
 1
-D/home/leandro/Documents/TUPED/Algoritmos/TP6
-	TP6_punto10.png
+D/home/leandro/B570/debian_live/live-morlock/auto
+	config
+1
+D/home/leandro/B570/debian_live/live-morlock
+	config
+2
+D/home/leandro/B570/debian_live/live-morlock/config
+	bootloaders
 3
-D/home/leandro/Documents/TUPED/Algoritmos
-	TP7
-2
-D/home/leandro/Documents/TUPED/Algoritmos/TP7
+D/home/leandro/B570/debian_live/live-morlock/config/bootloaders
 	..
 0
-D/home/leandro/Documents/TUPED/Algoritmos
-	TP7
-2
-D/home/leandro/Documents/TUPED
-	Algoritmos
-7
-D/home/leandro
-	oneDrive
-1
-D/home/leandro/oneDrive
-	documents
-3
-D/home/leandro/oneDrive/documents
-	..
-0
-D/home/leandro/oneDrive
-	..
-0
-D/home/leandro/Pictures/MB
-	IMG-20200405-WA0010.jpeg
-1
-D/home/leandro/Pictures
-	MB
-7
-D/home/leandro
-	Drive
+D/home/leandro/B570/debian_live/live-morlock/config
+	package-lists
 13
-D/home/leandro/Drive
-	CINE_listo
-5
+D/home/leandro/B570/debian_live/live-morlock/config/package-lists
+	desktop.list.chroot
+1
+D/home/leandro/B570/debian_live/live-morlock/config
+	package-lists
+14
+D/home/leandro/B570/debian_live/live-morlock
+	config
+4
+D/home/leandro/B570/debian_live
+	live-morlock
+4
+D/home/leandro/B570/debian_live/live-morlock
+	auto
+1
+D/home/leandro/B570/debian_live
+	live-morlock
+4
+D/home/leandro/B570
+	debian_live
+12
+D/home/leandro
+	B570
+1
+D/home
+	leandro
+1
 D
 
 # Command line history (oldest to newest):
-:!rsync -avh d%/ D%/
-:vmap/
-:help M
-:set number
-:4
-:nmap/
-:!chmod 644 %f
-:!vlc %f
-:!sudo rm %f
-:only
-:help only
-:d
-:cd $celu
-:cd celu9mc/
-:two
-:right
-:normal
-:on
-:!sudo vim %f
-:!chmod -R 644 .
-:!rsync -avHX --delete %d/ %D/
-:!touch .ignore
-:mkdir PPTX
-:mkdir R
-:!7z x %f
-:mkdir Pictos
-:mkdir Scripts
-:!ln -s /home/leandro/Documents/TUPED/PyE/PI/Scripts /home/leandro/PycharmProjects/PyE
 :!rm
 :!rm -rf %f%
 :!sudo cp %f% %D%
 :cd ../.config/rclone/
 :chmod 755
 :bulkrename
-:rename
 :!find . -iname "*krita*"
 :cd /usr/share/X11/xorg.conf.d/
 :!vimdiff %f %F
@@ -683,7 +654,6 @@ D
 :mkdir recup_enc
 :cd /tmp
 :!sudo cp %f %D
-:cd /mnt
 :mkdir dBecker
 :rmdir
 :!rmdir
@@ -698,7 +668,6 @@ D
 :mkdir live-greta
 :!rsync -a %d/ %D/
 :!rsync -aHX %d/ %D/
-:!rsync -avHX %d/ %D/
 :cd tmp
 :?mark
 :?'
@@ -723,22 +692,53 @@ D
 :compare exit
 :sort 
 :empty
-:sort
 :cd /etc/vim/
 :cd /
 :noh
 :cd /opt/DataGrip-2021.1.3/
 :cd .config
-:cd .local/
 :mkdir TP6
 :!du -sh %D
 :mkdir LEANDRO
 :mkdir Codigo
 :cd /usr/lib/cups/filter/
-:sync
 :set notrash
-:delete
 :!du -sh %d
+:mkdir EI2
+:cd /mnt
+::
+:+
+:rk
+:rks
+:marks
+:cd .config/vifm/
+::q
+:tabnew ~/.config
+:2h
+: 2h
+:cd .local/
+:mkdir borrar
+:sort
+:mkdir esquemaElectrico
+:extrat
+:extract %f
+:?extract
+:extract?
+:help extract
+:!zip %f
+:!7z x %f
+:mkdir 
+:rename
+:!filter *.jpg
+:filter *.png
+:tabnew
+:!rsync -avHX %d/ %D/
+:!rsync -avh  %d/ %D/
+:sync
+:filter /^.*\.png$/
+:filter /^.*\.*$/
+:!rsync -avh --delete %d/ %D/
+:delete
 :q
 
 # Search history (oldest to newest):
@@ -750,7 +750,6 @@ D
 /tlp
 /default
 /mypaint
-/My
 /polybar
 /i3b
 /i3
@@ -767,6 +766,11 @@ D
 /sh
 /datagrip
 /pycharm
+/zip
+/My
+/mobi
+/pow
+/*.png
 
 # Prompt history (oldest to newest):
 pbFerster
@@ -794,14 +798,17 @@ pBACKUPS_listo
 pLEANDRO_listo
 pCINE_listo
 pAnabell
+pvifm-help.txt.bak
+pvifmrc.dt
+pborrar_PyCharmCE2021.1
+pcSchvindt_oct21.zip
+pgauchos.jpeg
+pconfig
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/leandro/PycharmProjects/tp6/pqt_bt.py
-""/home/leandro/PycharmProjects/tp6/nodo.py
-""/home/leandro/PycharmProjects/tp6/nodo_cliente.py
-""/home/leandro/PycharmProjects/tp6/main.py
+""/home/leandro/.local/share/vifm/Trash/000_300px-Morlock.jpg
 
 # Directory stack (oldest to newest):
 
@@ -1246,11 +1253,59 @@ t/home/leandro/.local/share/vifm/Trash/000_comoHaceLaCabra.mpeg
 	/home/leandro/Music/comoHaceLaCabra.mpeg
 t/home/leandro/.local/share/vifm/Trash/000_el-misterio-de-salems-lot.zip
 	/home/leandro/Music/el-misterio-de-salems-lot.zip
+t/tmp/.vifm-Trash-1000/000_vifm_devicons-master.zip
+	/tmp/vifm_devicons-master.zip
+t/tmp/.vifm-Trash-1000/000_camperas.jpeg
+	/tmp/camperas.jpeg
+t/home/leandro/.local/share/vifm/Trash/000_borrar
+	/home/leandro/.local/share/JetBrains/borrar
+t/home/leandro/.local/share/vifm/Trash/000_QGIS
+	/home/leandro/.local/share/QGIS
+t/home/leandro/.local/share/vifm/Trash/000_WhatsApp Image 2021-10-29 at 22.33.32 (1).jpeg
+	/home/leandro/Documents/Fiat147/WhatsApp Image 2021-10-29 at 22.33.32 (1).jpeg
+t/home/leandro/.local/share/vifm/Trash/000_WhatsApp Image 2021-10-29 at 22.33.32.jpeg
+	/home/leandro/Documents/Fiat147/WhatsApp Image 2021-10-29 at 22.33.32.jpeg
+t/home/leandro/.local/share/vifm/Trash/000_WhatsApp Image 2021-10-29 at 22.33.33 (1).jpeg
+	/home/leandro/Documents/Fiat147/WhatsApp Image 2021-10-29 at 22.33.33 (1).jpeg
+t/home/leandro/.local/share/vifm/Trash/000_WhatsApp Image 2021-10-29 at 22.33.33.jpeg
+	/home/leandro/Documents/Fiat147/WhatsApp Image 2021-10-29 at 22.33.33.jpeg
+t/tmp/.vifm-Trash-1000/000_sabroson.mp4
+	/tmp/sabroson.mp4
+t/home/leandro/.local/share/vifm/Trash/000_El libro negro de la humanidad - Matthew White.mobi
+	/home/leandro/oneDrive/El libro negro de la humanidad - Matthew White.mobi
+t/home/leandro/.local/share/vifm/Trash/000_It - Stephen King.mobi
+	/home/leandro/oneDrive/It - Stephen King.mobi
+t/home/leandro/.local/share/vifm/Trash/000_Podemos recordarlo todo por usted.mobi
+	/home/leandro/oneDrive/Podemos recordarlo todo por usted.mobi
+t/home/leandro/.local/share/vifm/Trash/000_juanCarlos_raw.webp
+	/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/juanCarlos_raw.webp
+t/home/leandro/.local/share/vifm/Trash/000_isolinux
+	/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders/isolinux
+t/home/leandro/.local/share/vifm/Trash/000_bootloaders
+	/home/leandro/Documents/GNULinux/Apps/liveBuild/juanCarlos/bootloaders
+t/home/leandro/.local/share/vifm/Trash/000_splash.png
+	/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders/extlinux/splash.png
+t/home/leandro/.local/share/vifm/Trash/001_splash.png
+	/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders/grub-legacy/splash.png
+t/home/leandro/.local/share/vifm/Trash/002_splash.png
+	/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders/grub-pc/splash.png
+t/home/leandro/.local/share/vifm/Trash/003_splash.png
+	/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders/grub-pc/live-theme/splash.png
+t/home/leandro/.local/share/vifm/Trash/004_splash.png
+	/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders/isolinux/splash.png
+t/home/leandro/.local/share/vifm/Trash/005_splash.png
+	/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders/pxelinux/splash.png
+t/home/leandro/.local/share/vifm/Trash/006_splash.png
+	/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders/syslinux/splash.png
+t/home/leandro/.local/share/vifm/Trash/007_splash.png
+	/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/config/bootloaders/syslinux_common/splash.png
+t/home/leandro/.local/share/vifm/Trash/000_300px-Morlock.jpg
+	/home/leandro/Documents/GNULinux/Apps/liveBuild/Morlock/300px-Morlock.jpg
 
 # State:
 f
 i1
-[.1
+[.0
 [F
 F
 I1

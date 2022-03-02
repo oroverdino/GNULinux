@@ -1,5 +1,5 @@
 # Cryptsetup
-### 200210
+### 210916
 
 ## Instalacion
 ```
@@ -17,6 +17,15 @@ efimera; el label de la particion es rohs. Entonces:
 ...
 # umount /mnt
 # crpytsetup close carry
+```
+
+Para crear un archivo de 8G como si fuera una unidad:
+```
+$ dd if=/dev/null of=meteorito bs=1 seek=8G
+# cryptsetup --verify-passphrase luksFormat meteorito
+# crpytsetup luksOpen meteorito rohs
+# dd if=/dev/zero of=/dev/mapper/rohs
+# mkfs.ext4 -L meteorito /dev/mapper/rohs
 ```
 
 ## Montar
