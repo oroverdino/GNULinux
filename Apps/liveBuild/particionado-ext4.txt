@@ -1,0 +1,7 @@
+mktable gpt
+mkpart EFI fat16 1MiB 10MiB
+mkpart live ext4 10MiB 3GiB
+mkpart persistence ext4 3GiB 100%
+set 1 msftdata on
+set 2 legacy_boot on
+set 2 msftdata on
